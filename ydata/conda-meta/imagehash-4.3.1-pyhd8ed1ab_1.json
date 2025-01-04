@@ -1,0 +1,142 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pillow",
+    "python >=3.9",
+    "pywavelets",
+    "scipy"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\imagehash-4.3.1-pyhd8ed1ab_1",
+  "files": [
+    "images/imagehash.png",
+    "Scripts/find_similar_images.py",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/INSTALLER",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/LICENSE",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/METADATA",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/RECORD",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/REQUESTED",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/WHEEL",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/direct_url.json",
+    "Lib/site-packages/ImageHash-4.3.1.dist-info/top_level.txt",
+    "Lib/site-packages/imagehash/__init__.py",
+    "Lib/site-packages/imagehash/py.typed",
+    "Lib/site-packages/imagehash/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "imagehash-4.3.1-pyhd8ed1ab_1.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\imagehash-4.3.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "d733874844f9808ed46a93362f89bc2d",
+  "name": "imagehash",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\imagehash-4.3.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "images/imagehash.png",
+        "path_type": "hardlink",
+        "sha256": "35134f60585946fba3e705db56d4941241bb174207a92e2cd46498efa055a936",
+        "sha256_in_prefix": "35134f60585946fba3e705db56d4941241bb174207a92e2cd46498efa055a936",
+        "size_in_bytes": 292247
+      },
+      {
+        "_path": "python-scripts/find_similar_images.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/imagehash_1734862241422/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "68d0551e9b5ce753a49f9554c1fcf6013c611f34d7c9933b7987ea89386fbfb8",
+        "sha256_in_prefix": "7d8e7d8eef60ff1cc57afa8b8fa34830e587983e690a95f06037d3dbd9061c30",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9d0b037853dae7bcf6b19b728559a833993cd8710fc18a261e6026e56bf704be",
+        "sha256_in_prefix": "9d0b037853dae7bcf6b19b728559a833993cd8710fc18a261e6026e56bf704be",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "24cf846b8c07c0673b21c568ba08717365b7e0bc61ec13cd06853ee74c76cb2f",
+        "sha256_in_prefix": "24cf846b8c07c0673b21c568ba08717365b7e0bc61ec13cd06853ee74c76cb2f",
+        "size_in_bytes": 8002
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8c7c35cfbdb9d54e883cb5dad64778ea3797b898b442a46061c30af905aa3c07",
+        "sha256_in_prefix": "8c7c35cfbdb9d54e883cb5dad64778ea3797b898b442a46061c30af905aa3c07",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5535552d11bf2b35cad1e549c65bd3b288cfa0fb73a12cd085a34f310ec59b5d",
+        "sha256_in_prefix": "5535552d11bf2b35cad1e549c65bd3b288cfa0fb73a12cd085a34f310ec59b5d",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/ImageHash-4.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e7405743f86228b50cf0d87d6d111c4c8b0b065f7e4e083145d8bb6efd8b6198",
+        "sha256_in_prefix": "e7405743f86228b50cf0d87d6d111c4c8b0b065f7e4e083145d8bb6efd8b6198",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/imagehash/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfdc63ac6818517c69c298f604a57dd09f027cc7a22c16027cb7f14fb26ba89f",
+        "sha256_in_prefix": "cfdc63ac6818517c69c298f604a57dd09f027cc7a22c16027cb7f14fb26ba89f",
+        "size_in_bytes": 25367
+      },
+      {
+        "_path": "site-packages/imagehash/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b0d25c482ce79381032bb83863c05da3c7850b551e14aacbf6c14806fa05b0e9",
+        "sha256_in_prefix": "b0d25c482ce79381032bb83863c05da3c7850b551e14aacbf6c14806fa05b0e9",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "Lib/site-packages/imagehash/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7bc1cbff69284abe828a666cfc75292effc193a720d0a582ccc765b632a9a3b",
+  "size": 293346,
+  "subdir": "noarch",
+  "timestamp": 1734862341000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/imagehash-4.3.1-pyhd8ed1ab_1.conda",
+  "version": "4.3.1"
+}

@@ -1,0 +1,2773 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "jupyter-client >=5.3.4",
+    "jupyter-core >=4.6.3",
+    "ipywidgets >=7.5.1",
+    "tangled-up-in-unicode 0.2.0"
+  ],
+  "depends": [
+    "dacite >=1.8",
+    "htmlmin 0.1.12",
+    "imagehash 4.3.1",
+    "jinja2 >=2.11.1,<3.2",
+    "matplotlib-base >=3.5,<3.10",
+    "multimethod >=1.4,<2",
+    "numba >=0.56.0,<1",
+    "numpy >=1.16.0,<2.2",
+    "pandas >1.1,<3,!=1.4.0",
+    "phik >=0.11.1,<0.13",
+    "pydantic >=2",
+    "python >=3.9,<3.13",
+    "pyyaml >=5.0.0,<6.1",
+    "requests >=2.24.0,<3",
+    "scipy >=1.4.1,<1.14",
+    "seaborn-base >=0.10.1,<0.14",
+    "statsmodels >=0.13.2,<1",
+    "tqdm >=4.48.2,<5",
+    "typeguard >=3,<5",
+    "visions >=0.7.5,<0.7.7",
+    "wordcloud >=1.9.3"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\ydata-profiling-4.12.1-pyhd8ed1ab_0",
+  "files": [
+    "Scripts/pandas_profiling",
+    "Lib/site-packages/pandas_profiling/__init__.py",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/INSTALLER",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/LICENSE",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/METADATA",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/RECORD",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/REQUESTED",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/WHEEL",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/direct_url.json",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/entry_points.txt",
+    "Lib/site-packages/ydata_profiling-0.0.dev0.dist-info/top_level.txt",
+    "Lib/site-packages/ydata_profiling/__init__.py",
+    "Lib/site-packages/ydata_profiling/compare_reports.py",
+    "Lib/site-packages/ydata_profiling/config.py",
+    "Lib/site-packages/ydata_profiling/config_default.yaml",
+    "Lib/site-packages/ydata_profiling/config_minimal.yaml",
+    "Lib/site-packages/ydata_profiling/controller/__init__.py",
+    "Lib/site-packages/ydata_profiling/controller/console.py",
+    "Lib/site-packages/ydata_profiling/controller/pandas_decorator.py",
+    "Lib/site-packages/ydata_profiling/expectations_report.py",
+    "Lib/site-packages/ydata_profiling/model/__init__.py",
+    "Lib/site-packages/ydata_profiling/model/alerts.py",
+    "Lib/site-packages/ydata_profiling/model/correlations.py",
+    "Lib/site-packages/ydata_profiling/model/dataframe.py",
+    "Lib/site-packages/ydata_profiling/model/describe.py",
+    "Lib/site-packages/ydata_profiling/model/description.py",
+    "Lib/site-packages/ydata_profiling/model/duplicates.py",
+    "Lib/site-packages/ydata_profiling/model/expectation_algorithms.py",
+    "Lib/site-packages/ydata_profiling/model/handler.py",
+    "Lib/site-packages/ydata_profiling/model/missing.py",
+    "Lib/site-packages/ydata_profiling/model/pairwise.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/__init__.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/correlations_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/dataframe_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_boolean_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_categorical_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_counts_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_date_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_file_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_generic_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_image_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_numeric_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_path_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_supported_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_text_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_timeseries_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/describe_url_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/discretize_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/duplicates_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/imbalance_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/missing_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/sample_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/summary_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/table_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/timeseries_index_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/pandas/utils_pandas.py",
+    "Lib/site-packages/ydata_profiling/model/sample.py",
+    "Lib/site-packages/ydata_profiling/model/spark/__init__.py",
+    "Lib/site-packages/ydata_profiling/model/spark/correlations_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/dataframe_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_boolean_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_categorical_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_counts_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_date_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_generic_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_numeric_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_supported_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/describe_text_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/duplicates_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/missing_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/sample_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/summary_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/table_spark.py",
+    "Lib/site-packages/ydata_profiling/model/spark/timeseries_index_spark.py",
+    "Lib/site-packages/ydata_profiling/model/summarizer.py",
+    "Lib/site-packages/ydata_profiling/model/summary.py",
+    "Lib/site-packages/ydata_profiling/model/summary_algorithms.py",
+    "Lib/site-packages/ydata_profiling/model/table.py",
+    "Lib/site-packages/ydata_profiling/model/timeseries_index.py",
+    "Lib/site-packages/ydata_profiling/model/typeset.py",
+    "Lib/site-packages/ydata_profiling/model/typeset_relations.py",
+    "Lib/site-packages/ydata_profiling/profile_report.py",
+    "Lib/site-packages/ydata_profiling/report/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/formatters.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/alerts.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/collapse.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/container.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/correlation_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/dropdown.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/duplicate.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/frequency_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/frequency_table_small.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/html.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/image.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/item_renderer.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/renderable.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/root.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/sample.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/toggle_button.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/variable.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/variable_info.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/flavours.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/alerts.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/collapse.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/container.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/correlation_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/dropdown.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/duplicate.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/frequency_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/frequency_table_small.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/html.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/image.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/root.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/sample.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_constant.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_constant_length.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_duplicates.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_empty.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_high_cardinality.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_high_correlation.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_imbalance.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_infinite.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_missing.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_non_stationary.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_seasonal.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_skewed.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_truncated.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_type_date.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_uniform.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_unique.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_unsupported.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_zeros.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/collapse.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/correlation_table.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/diagram.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/dropdown.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/duplicate.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/frequency_table.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/frequency_table_small.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/report.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sample.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/batch_grid.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/grid.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/list.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/named_list.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/sections.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/select.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/tabs.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/table.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/toggle_button.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/variable.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/variable_info.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.bundle.min.js",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/cosmo.bootstrap.min.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/flatly.bootstrap.min.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/script.js",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/simplex.bootstrap.min.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/style.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/united.bootstrap.min.css",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/footer.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/javascript.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/navigation.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/style.html",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/toggle_button.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/variable.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/variable_info.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/alerts.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/collapse.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/container.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/correlation_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/dropdown.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/duplicate.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/frequency_table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/frequency_table_small.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/html.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/image.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/notebook.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/root.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/sample.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/table.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/toggle_button.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/variable.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/variable_info.py",
+    "Lib/site-packages/ydata_profiling/report/presentation/frequency_table_utils.py",
+    "Lib/site-packages/ydata_profiling/report/structure/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/structure/correlations.py",
+    "Lib/site-packages/ydata_profiling/report/structure/overview.py",
+    "Lib/site-packages/ydata_profiling/report/structure/report.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__init__.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_boolean.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_categorical.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_common.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_complex.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_count.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_date.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_file.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_generic.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_image.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_path.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_real.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_text.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_timeseries.py",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/render_url.py",
+    "Lib/site-packages/ydata_profiling/serialize_report.py",
+    "Lib/site-packages/ydata_profiling/utils/__init__.py",
+    "Lib/site-packages/ydata_profiling/utils/cache.py",
+    "Lib/site-packages/ydata_profiling/utils/common.py",
+    "Lib/site-packages/ydata_profiling/utils/compat.py",
+    "Lib/site-packages/ydata_profiling/utils/dataframe.py",
+    "Lib/site-packages/ydata_profiling/utils/imghdr_patch.py",
+    "Lib/site-packages/ydata_profiling/utils/logger.py",
+    "Lib/site-packages/ydata_profiling/utils/notebook.py",
+    "Lib/site-packages/ydata_profiling/utils/paths.py",
+    "Lib/site-packages/ydata_profiling/utils/progress_bar.py",
+    "Lib/site-packages/ydata_profiling/utils/styles.py",
+    "Lib/site-packages/ydata_profiling/utils/versions.py",
+    "Lib/site-packages/ydata_profiling/version.py",
+    "Lib/site-packages/ydata_profiling/visualisation/__init__.py",
+    "Lib/site-packages/ydata_profiling/visualisation/context.py",
+    "Lib/site-packages/ydata_profiling/visualisation/missing.py",
+    "Lib/site-packages/ydata_profiling/visualisation/plot.py",
+    "Lib/site-packages/ydata_profiling/visualisation/utils.py",
+    "Lib/site-packages/pandas_profiling/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/compare_reports.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/config.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/controller/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/controller/__pycache__/console.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/controller/__pycache__/pandas_decorator.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/expectations_report.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/alerts.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/correlations.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/dataframe.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/describe.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/description.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/duplicates.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/expectation_algorithms.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/handler.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/missing.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/pairwise.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/correlations_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/dataframe_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_boolean_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_categorical_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_counts_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_date_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_file_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_generic_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_image_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_numeric_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_path_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_supported_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_text_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_timeseries_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_url_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/discretize_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/duplicates_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/imbalance_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/missing_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/sample_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/summary_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/table_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/timeseries_index_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/utils_pandas.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/sample.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/correlations_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/dataframe_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_boolean_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_categorical_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_counts_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_date_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_generic_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_numeric_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_supported_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_text_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/duplicates_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/missing_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/sample_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/summary_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/table_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/spark/__pycache__/timeseries_index_spark.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/summarizer.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/summary.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/summary_algorithms.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/timeseries_index.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/typeset.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/model/__pycache__/typeset_relations.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/profile_report.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/__pycache__/formatters.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/alerts.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/collapse.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/container.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/correlation_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/dropdown.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/duplicate.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/frequency_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/frequency_table_small.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/html.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/item_renderer.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/renderable.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/root.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/sample.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/toggle_button.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/variable.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/variable_info.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/__pycache__/flavours.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/alerts.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/collapse.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/container.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/correlation_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/dropdown.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/duplicate.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/frequency_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/frequency_table_small.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/html.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/root.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/sample.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/templates.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/toggle_button.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/variable.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/variable_info.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/alerts.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/collapse.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/container.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/correlation_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/dropdown.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/duplicate.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/frequency_table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/frequency_table_small.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/html.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/notebook.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/root.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/sample.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/toggle_button.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/variable.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/variable_info.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/presentation/__pycache__/frequency_table_utils.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/__pycache__/correlations.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/__pycache__/overview.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/__pycache__/report.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_boolean.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_categorical.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_common.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_complex.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_count.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_date.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_file.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_generic.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_image.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_path.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_real.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_text.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_timeseries.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_url.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/serialize_report.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/cache.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/common.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/compat.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/dataframe.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/imghdr_patch.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/logger.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/notebook.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/paths.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/progress_bar.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/styles.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/utils/__pycache__/versions.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/__pycache__/version.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/visualisation/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/visualisation/__pycache__/context.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/visualisation/__pycache__/missing.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/visualisation/__pycache__/plot.cpython-310.pyc",
+    "Lib/site-packages/ydata_profiling/visualisation/__pycache__/utils.cpython-310.pyc",
+    "Scripts/ydata_profiling-script.py",
+    "Scripts/ydata_profiling.exe"
+  ],
+  "fn": "ydata-profiling-4.12.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\ydata-profiling-4.12.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "cd3da5dd2340d96a9fa10cd1894bdfc7",
+  "name": "ydata-profiling",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\ydata-profiling-4.12.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/pandas_profiling",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ydata-profiling_1733705793645/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "303a9186d2f715b008ed7129860d369568240cb1e0e5ababb241aeb4f3e36bce",
+        "sha256_in_prefix": "e92efece460d730faa60db3def9e18dff1bb18e2de93271190a15c69c539fb2d",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/pandas_profiling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "da54ccfcc296f02e079c2cd348b67c026fd75bb3561e081bec17b11e1074359b",
+        "sha256_in_prefix": "da54ccfcc296f02e079c2cd348b67c026fd75bb3561e081bec17b11e1074359b",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "94ef35ca6a81b18c9f8c03adeb5a816f97947d1e16991959b881ceb267211dd9",
+        "sha256_in_prefix": "94ef35ca6a81b18c9f8c03adeb5a816f97947d1e16991959b881ceb267211dd9",
+        "size_in_bytes": 1133
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2d1030aa11bfc25e5160ffc845044104f1f4693c5bd4e806e64cf24c0281546d",
+        "sha256_in_prefix": "2d1030aa11bfc25e5160ffc845044104f1f4693c5bd4e806e64cf24c0281546d",
+        "size_in_bytes": 20874
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d3638f861f2a8aa559cc2a5665fa4873d5ca1d7a77dc657e7f5ad765b0f25a79",
+        "sha256_in_prefix": "d3638f861f2a8aa559cc2a5665fa4873d5ca1d7a77dc657e7f5ad765b0f25a79",
+        "size_in_bytes": 39605
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6c1232971d81cbbf5b94890dbc2c17c76f7e753596d53d22a28e5cacb8cac875",
+        "sha256_in_prefix": "6c1232971d81cbbf5b94890dbc2c17c76f7e753596d53d22a28e5cacb8cac875",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "d78c91bd2fcf9f1fff5d64f71383b5d69684ca9c6c2323609cdc6daf14ccc5bd",
+        "sha256_in_prefix": "d78c91bd2fcf9f1fff5d64f71383b5d69684ca9c6c2323609cdc6daf14ccc5bd",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/ydata_profiling-0.0.dev0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5fde2b7a19b99f989bf1b232e4e7d88b510fcafc7be90ae3a4f76e7b8ae0d242",
+        "sha256_in_prefix": "5fde2b7a19b99f989bf1b232e4e7d88b510fcafc7be90ae3a4f76e7b8ae0d242",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/ydata_profiling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "98d3b27a98ef29491337cea503001b8a425b38a48a046f6ce85f51594367a81f",
+        "sha256_in_prefix": "98d3b27a98ef29491337cea503001b8a425b38a48a046f6ce85f51594367a81f",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "site-packages/ydata_profiling/compare_reports.py",
+        "path_type": "hardlink",
+        "sha256": "092f333fd56ee5c013f67c5c1e127f7ccf813e11a69728daf3fdf5993802435b",
+        "sha256_in_prefix": "092f333fd56ee5c013f67c5c1e127f7ccf813e11a69728daf3fdf5993802435b",
+        "size_in_bytes": 13009
+      },
+      {
+        "_path": "site-packages/ydata_profiling/config.py",
+        "path_type": "hardlink",
+        "sha256": "8f5249638cc4f01da9f171d25c7da04393e96fb86101b7e7a662ac9bdfce8d4f",
+        "sha256_in_prefix": "8f5249638cc4f01da9f171d25c7da04393e96fb86101b7e7a662ac9bdfce8d4f",
+        "size_in_bytes": 12850
+      },
+      {
+        "_path": "site-packages/ydata_profiling/config_default.yaml",
+        "path_type": "hardlink",
+        "sha256": "85499a49f4d9d60c401fb6b0435dc75b48c695705b9bacb7a66904f44a68a739",
+        "sha256_in_prefix": "85499a49f4d9d60c401fb6b0435dc75b48c695705b9bacb7a66904f44a68a739",
+        "size_in_bytes": 4100
+      },
+      {
+        "_path": "site-packages/ydata_profiling/config_minimal.yaml",
+        "path_type": "hardlink",
+        "sha256": "e7243f002c14bd530ceb011b19d16c6a89df23383b81d5f0d637e6a08d080e43",
+        "sha256_in_prefix": "e7243f002c14bd530ceb011b19d16c6a89df23383b81d5f0d637e6a08d080e43",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "site-packages/ydata_profiling/controller/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "74874f6b08103ee99a2003ee75862461cb1fd6563c081151b6995e3b91c8e4df",
+        "sha256_in_prefix": "74874f6b08103ee99a2003ee75862461cb1fd6563c081151b6995e3b91c8e4df",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/ydata_profiling/controller/console.py",
+        "path_type": "hardlink",
+        "sha256": "2617a7027f09036a90f849e6c51b504f6a100e55cce0c0f8491a8f29394ccbb6",
+        "sha256_in_prefix": "2617a7027f09036a90f849e6c51b504f6a100e55cce0c0f8491a8f29394ccbb6",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "site-packages/ydata_profiling/controller/pandas_decorator.py",
+        "path_type": "hardlink",
+        "sha256": "e4d08458e68df9aeec054fd88fc0b3a754d5eb70c4b836cff535958b356f2583",
+        "sha256_in_prefix": "e4d08458e68df9aeec054fd88fc0b3a754d5eb70c4b836cff535958b356f2583",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "site-packages/ydata_profiling/expectations_report.py",
+        "path_type": "hardlink",
+        "sha256": "d65eccfa73402ffb3c5d1c3a52e901e42a0432502110c6cf67ed462509baeb28",
+        "sha256_in_prefix": "d65eccfa73402ffb3c5d1c3a52e901e42a0432502110c6cf67ed462509baeb28",
+        "size_in_bytes": 4539
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88a32aeb0b5f9806cde12121530222c7824b105ee1afec756c42fc85df8d69d9",
+        "sha256_in_prefix": "88a32aeb0b5f9806cde12121530222c7824b105ee1afec756c42fc85df8d69d9",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/alerts.py",
+        "path_type": "hardlink",
+        "sha256": "e1070e9c0a67e1bbff2fc5542dfc6e436104a4508059efd4f67959b2f003f997",
+        "sha256_in_prefix": "e1070e9c0a67e1bbff2fc5542dfc6e436104a4508059efd4f67959b2f003f997",
+        "size_in_bytes": 20657
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/correlations.py",
+        "path_type": "hardlink",
+        "sha256": "16516c1db2d3918b46fdcbac485297d2d5389baa70a053535be3a763a5507ce5",
+        "sha256_in_prefix": "16516c1db2d3918b46fdcbac485297d2d5389baa70a053535be3a763a5507ce5",
+        "size_in_bytes": 4142
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "b75973f579ec6fb55923b6c75e93a1aa89f8023127a5da56f7ec5041323b1d93",
+        "sha256_in_prefix": "b75973f579ec6fb55923b6c75e93a1aa89f8023127a5da56f7ec5041323b1d93",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/describe.py",
+        "path_type": "hardlink",
+        "sha256": "63dd10e15e9e8ce1ef194b5a1f1379400ecba19d6e9f3636fde3e31eafb48c2d",
+        "sha256_in_prefix": "63dd10e15e9e8ce1ef194b5a1f1379400ecba19d6e9f3636fde3e31eafb48c2d",
+        "size_in_bytes": 6683
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/description.py",
+        "path_type": "hardlink",
+        "sha256": "5efeda5d6728384595eef5d023a21070e596153915ff803ba60a7b828e05ae86",
+        "sha256_in_prefix": "5efeda5d6728384595eef5d023a21070e596153915ff803ba60a7b828e05ae86",
+        "size_in_bytes": 3886
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/duplicates.py",
+        "path_type": "hardlink",
+        "sha256": "490c4e3d4c54742dc9127e4a18a1ca2b7769624f4973d328f54377a8b7fc6058",
+        "sha256_in_prefix": "490c4e3d4c54742dc9127e4a18a1ca2b7769624f4973d328f54377a8b7fc6058",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/expectation_algorithms.py",
+        "path_type": "hardlink",
+        "sha256": "6545533eb7ef52375d9e479f5138a8fbfcc3b6585624e2f9868538efc0d618e2",
+        "sha256_in_prefix": "6545533eb7ef52375d9e479f5138a8fbfcc3b6585624e2f9868538efc0d618e2",
+        "size_in_bytes": 3226
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/handler.py",
+        "path_type": "hardlink",
+        "sha256": "31e0903e54b79e2afc81b5d45ea66a05d04a3a3f536f9dd36a66976da0b815b5",
+        "sha256_in_prefix": "31e0903e54b79e2afc81b5d45ea66a05d04a3a3f536f9dd36a66976da0b815b5",
+        "size_in_bytes": 2392
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/missing.py",
+        "path_type": "hardlink",
+        "sha256": "32f84beeb183586cda3b2493d57d9ca35cf0d97fd220a0b74596ee53f802b674",
+        "sha256_in_prefix": "32f84beeb183586cda3b2493d57d9ca35cf0d97fd220a0b74596ee53f802b674",
+        "size_in_bytes": 3520
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pairwise.py",
+        "path_type": "hardlink",
+        "sha256": "890150539e05c856ea968b707823fde3fe73327d14ad85bf729d0a2c08fea553",
+        "sha256_in_prefix": "890150539e05c856ea968b707823fde3fe73327d14ad85bf729d0a2c08fea553",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e01171faf04c52d81c03aaf624d7046e28ce58111a95df9c1ce9ea6018625d59",
+        "sha256_in_prefix": "e01171faf04c52d81c03aaf624d7046e28ce58111a95df9c1ce9ea6018625d59",
+        "size_in_bytes": 1209
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/correlations_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "b62711db96b059bfdf3bf6dc6dc4a107c4471f4d2e729f5c2d4b3cc5608b559a",
+        "sha256_in_prefix": "b62711db96b059bfdf3bf6dc6dc4a107c4471f4d2e729f5c2d4b3cc5608b559a",
+        "size_in_bytes": 7007
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/dataframe_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "822f4896c611a04424a757674f7666fe101ce5fdaf01b393b5c5c600bf290ec0",
+        "sha256_in_prefix": "822f4896c611a04424a757674f7666fe101ce5fdaf01b393b5c5c600bf290ec0",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_boolean_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "0757884b9fc6da33776c1b05517570c04d743bb4884b3663e9321cb82447ca4e",
+        "sha256_in_prefix": "0757884b9fc6da33776c1b05517570c04d743bb4884b3663e9321cb82447ca4e",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_categorical_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "a89eadfb23f840f32ecbc030dff54e08dcb8a1460d30b792aed8aad4063a3ca3",
+        "sha256_in_prefix": "a89eadfb23f840f32ecbc030dff54e08dcb8a1460d30b792aed8aad4063a3ca3",
+        "size_in_bytes": 9428
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_counts_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "90bc577bb9d3bef910c34b02c522552d63a8d4c226240c29509da0bf9674ad6f",
+        "sha256_in_prefix": "90bc577bb9d3bef910c34b02c522552d63a8d4c226240c29509da0bf9674ad6f",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_date_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "c512cb8a457a06ccc72f1ab29c1dab2c1129e43fdd2cd993fdcc85706f9ad491",
+        "sha256_in_prefix": "c512cb8a457a06ccc72f1ab29c1dab2c1129e43fdd2cd993fdcc85706f9ad491",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_file_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "99eaa31a181a6260fb15a1a2077bdba6c3844ea0f977d80aeb6ec3ed57aa454e",
+        "sha256_in_prefix": "99eaa31a181a6260fb15a1a2077bdba6c3844ea0f977d80aeb6ec3ed57aa454e",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_generic_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "5d0f589420eeb813c5958a9e68d16589b64b57a97b678335286fe2ce25d87435",
+        "sha256_in_prefix": "5d0f589420eeb813c5958a9e68d16589b64b57a97b678335286fe2ce25d87435",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_image_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "03439577cd2e2fa7f0f789c3b2c22539fd43fd67bfc4f6db528b5abf1164f105",
+        "sha256_in_prefix": "03439577cd2e2fa7f0f789c3b2c22539fd43fd67bfc4f6db528b5abf1164f105",
+        "size_in_bytes": 5830
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_numeric_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "5cb25a0182d869d271a9067f7931abb555aa1608039216318cbf007ec2dade96",
+        "sha256_in_prefix": "5cb25a0182d869d271a9067f7931abb555aa1608039216318cbf007ec2dade96",
+        "size_in_bytes": 5664
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_path_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "305baf7248f1a51f1448e2ebf22091ebb20c291514bd3912675703fdef72e076",
+        "sha256_in_prefix": "305baf7248f1a51f1448e2ebf22091ebb20c291514bd3912675703fdef72e076",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_supported_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "617b8a3b0ef57ce8a94a6d2e2707e5bb2078587cd13f8bbd6e24e621902a6f31",
+        "sha256_in_prefix": "617b8a3b0ef57ce8a94a6d2e2707e5bb2078587cd13f8bbd6e24e621902a6f31",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_text_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "c04fa391155dc9221a612a424d24b478c3c10ca746e7454feed8e0d6721e35bf",
+        "sha256_in_prefix": "c04fa391155dc9221a612a424d24b478c3c10ca746e7454feed8e0d6721e35bf",
+        "size_in_bytes": 1743
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_timeseries_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "6d2b96ebf4c450222a7b21cbed68bd55a823dccfbc0d550fa6750825bdc0b6f6",
+        "sha256_in_prefix": "6d2b96ebf4c450222a7b21cbed68bd55a823dccfbc0d550fa6750825bdc0b6f6",
+        "size_in_bytes": 6746
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/describe_url_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "91573763c7c29f95a8ebd076bef5214aa8e4e7c945da52f7f4f3c9eee6ca49b8",
+        "sha256_in_prefix": "91573763c7c29f95a8ebd076bef5214aa8e4e7c945da52f7f4f3c9eee6ca49b8",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/discretize_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "3cd78c5494820aaf9278ed35849017e8dce1b6a3e1cd63735ecf1fd54b964f5d",
+        "sha256_in_prefix": "3cd78c5494820aaf9278ed35849017e8dce1b6a3e1cd63735ecf1fd54b964f5d",
+        "size_in_bytes": 2635
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/duplicates_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "786f4ee5ba09f9bfad1f35da284cddc270972e03ea0459e4189a9f91aa007715",
+        "sha256_in_prefix": "786f4ee5ba09f9bfad1f35da284cddc270972e03ea0459e4189a9f91aa007715",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/imbalance_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "20f4a01e15f559c954204b021fede69d283cded5c4cd2509a3c1a4da4274bd61",
+        "sha256_in_prefix": "20f4a01e15f559c954204b021fede69d283cded5c4cd2509a3c1a4da4274bd61",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/missing_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "702334e9f20b77f89997f5f79303f527f95f1ed34a06756e90e411cb98465554",
+        "sha256_in_prefix": "702334e9f20b77f89997f5f79303f527f95f1ed34a06756e90e411cb98465554",
+        "size_in_bytes": 1401
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/sample_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "8bf45a3f8935e81924d9a41188d69c9076d662400cff199543759591dd4b1858",
+        "sha256_in_prefix": "8bf45a3f8935e81924d9a41188d69c9076d662400cff199543759591dd4b1858",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/summary_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "8c37c876b997995779a4fb6aae32e41a908288c8daa46b4e0a0bd19f4aec4506",
+        "sha256_in_prefix": "8c37c876b997995779a4fb6aae32e41a908288c8daa46b4e0a0bd19f4aec4506",
+        "size_in_bytes": 4011
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/table_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "da94103c96b2f55a01c0718302aa6171419ff34b1cda41f6b19504312932067d",
+        "sha256_in_prefix": "da94103c96b2f55a01c0718302aa6171419ff34b1cda41f6b19504312932067d",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/timeseries_index_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "fb1069af3a4d8c65e3f8b68b3c5fbfe93df160cf5e267770dd299070ba100f1b",
+        "sha256_in_prefix": "fb1069af3a4d8c65e3f8b68b3c5fbfe93df160cf5e267770dd299070ba100f1b",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/pandas/utils_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "113667fb4afbc8705a5f1379969bb0c303f7e3747bec0c2f74b2ce60aa6092fe",
+        "sha256_in_prefix": "113667fb4afbc8705a5f1379969bb0c303f7e3747bec0c2f74b2ce60aa6092fe",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/sample.py",
+        "path_type": "hardlink",
+        "sha256": "4d3db3a484f700b83d48497cef7534dab470dbba8c7a7482580ee36f519ccf6f",
+        "sha256_in_prefix": "4d3db3a484f700b83d48497cef7534dab470dbba8c7a7482580ee36f519ccf6f",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b9f0ac58c3b36a0383ada97450c8065e615b74e00ac14ceaed877df81bc256d4",
+        "sha256_in_prefix": "b9f0ac58c3b36a0383ada97450c8065e615b74e00ac14ceaed877df81bc256d4",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/correlations_spark.py",
+        "path_type": "hardlink",
+        "sha256": "bed8c52957daa419afe582ee4ddfe51f0b523900ab21de26a54dd33d3a63100d",
+        "sha256_in_prefix": "bed8c52957daa419afe582ee4ddfe51f0b523900ab21de26a54dd33d3a63100d",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/dataframe_spark.py",
+        "path_type": "hardlink",
+        "sha256": "9b629ce86e97464e3535a8f85cb1ea0d5bf952b5aa40a98633fcc8e797f78525",
+        "sha256_in_prefix": "9b629ce86e97464e3535a8f85cb1ea0d5bf952b5aa40a98633fcc8e797f78525",
+        "size_in_bytes": 1777
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_boolean_spark.py",
+        "path_type": "hardlink",
+        "sha256": "04c54dd1cc0eb4e1558145bdf153a0c2cfc98e9a11d24b339e1ac64da9e9ea10",
+        "sha256_in_prefix": "04c54dd1cc0eb4e1558145bdf153a0c2cfc98e9a11d24b339e1ac64da9e9ea10",
+        "size_in_bytes": 788
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_categorical_spark.py",
+        "path_type": "hardlink",
+        "sha256": "842e80e620252aee2e28aab37c6aecf4c5c5d83d6e70790ed478b23e9e1eab13",
+        "sha256_in_prefix": "842e80e620252aee2e28aab37c6aecf4c5c5d83d6e70790ed478b23e9e1eab13",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_counts_spark.py",
+        "path_type": "hardlink",
+        "sha256": "eb5980963aa2a968aeb4a828c59555c88192028d67e330510c327c9d2bfeaed5",
+        "sha256_in_prefix": "eb5980963aa2a968aeb4a828c59555c88192028d67e330510c327c9d2bfeaed5",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_date_spark.py",
+        "path_type": "hardlink",
+        "sha256": "e565aa75472d2b3fea26444932103c8abb9212230f1e53cb0459d30ecf417de9",
+        "sha256_in_prefix": "e565aa75472d2b3fea26444932103c8abb9212230f1e53cb0459d30ecf417de9",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_generic_spark.py",
+        "path_type": "hardlink",
+        "sha256": "35691494cdba48dfd40bb321c4f67fe055609c37e741d00909b0849a6430f9b3",
+        "sha256_in_prefix": "35691494cdba48dfd40bb321c4f67fe055609c37e741d00909b0849a6430f9b3",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_numeric_spark.py",
+        "path_type": "hardlink",
+        "sha256": "09325bcd60229c0e044c00f52d7aafcca19ac58f8a3b4679c99a24fef8a43383",
+        "sha256_in_prefix": "09325bcd60229c0e044c00f52d7aafcca19ac58f8a3b4679c99a24fef8a43383",
+        "size_in_bytes": 4582
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_supported_spark.py",
+        "path_type": "hardlink",
+        "sha256": "b531a5a5d71dc9cc85fc60d581c7e1313bbde27f6345cfc6afe2132ebea681d7",
+        "sha256_in_prefix": "b531a5a5d71dc9cc85fc60d581c7e1313bbde27f6345cfc6afe2132ebea681d7",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/describe_text_spark.py",
+        "path_type": "hardlink",
+        "sha256": "463daecee5a82d6573c856dda81fd30d13adc4dfd1a9a580687392d733ae6034",
+        "sha256_in_prefix": "463daecee5a82d6573c856dda81fd30d13adc4dfd1a9a580687392d733ae6034",
+        "size_in_bytes": 728
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/duplicates_spark.py",
+        "path_type": "hardlink",
+        "sha256": "ab8f2aeab8eff940f35090540b3bf590fb72d3b24b8b8a1d4e9de1d37e399ecb",
+        "sha256_in_prefix": "ab8f2aeab8eff940f35090540b3bf590fb72d3b24b8b8a1d4e9de1d37e399ecb",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/missing_spark.py",
+        "path_type": "hardlink",
+        "sha256": "428c4202fbb767b47d3b0f3832e7c0cd72234cb836680bd2544a4d69c1ddc2cc",
+        "sha256_in_prefix": "428c4202fbb767b47d3b0f3832e7c0cd72234cb836680bd2544a4d69c1ddc2cc",
+        "size_in_bytes": 3680
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/sample_spark.py",
+        "path_type": "hardlink",
+        "sha256": "15e87583033c12f46b4717873a2adc879d4564d3aed12a7ea0671b39571d3c3a",
+        "sha256_in_prefix": "15e87583033c12f46b4717873a2adc879d4564d3aed12a7ea0671b39571d3c3a",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/summary_spark.py",
+        "path_type": "hardlink",
+        "sha256": "40901de0f5fc724216c381d9cc40fb742712725f507daa9cf543ebbb2315ea56",
+        "sha256_in_prefix": "40901de0f5fc724216c381d9cc40fb742712725f507daa9cf543ebbb2315ea56",
+        "size_in_bytes": 3524
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/table_spark.py",
+        "path_type": "hardlink",
+        "sha256": "6ace275520d41de9135f32d001ecc8af127355c8139aff3f819d1e39478ef82f",
+        "sha256_in_prefix": "6ace275520d41de9135f32d001ecc8af127355c8139aff3f819d1e39478ef82f",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/spark/timeseries_index_spark.py",
+        "path_type": "hardlink",
+        "sha256": "18a76015be8462d34779782f6154af77e076a5e8a67dded069ff22a2872585f4",
+        "sha256_in_prefix": "18a76015be8462d34779782f6154af77e076a5e8a67dded069ff22a2872585f4",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/summarizer.py",
+        "path_type": "hardlink",
+        "sha256": "acecc7530f82f096e1b5b34703c494691553a711b12bd852e6594a815fee567f",
+        "sha256_in_prefix": "acecc7530f82f096e1b5b34703c494691553a711b12bd852e6594a815fee567f",
+        "size_in_bytes": 5216
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/summary.py",
+        "path_type": "hardlink",
+        "sha256": "d99e97f9311d04e37b7f71a5ccf1756b5e478ce1c3b33d8fbc6b62abfc1d7f44",
+        "sha256_in_prefix": "d99e97f9311d04e37b7f71a5ccf1756b5e478ce1c3b33d8fbc6b62abfc1d7f44",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/summary_algorithms.py",
+        "path_type": "hardlink",
+        "sha256": "87b3a5ae1deae6b89c22828d273d30c35c8b43b4d2614c479d7f6a6d85e06762",
+        "sha256_in_prefix": "87b3a5ae1deae6b89c22828d273d30c35c8b43b4d2614c479d7f6a6d85e06762",
+        "size_in_bytes": 5263
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/table.py",
+        "path_type": "hardlink",
+        "sha256": "ebd1563967fdf1e778255d0eb2315859858d04094ad2ad5a88dfae0a8dec48c9",
+        "sha256_in_prefix": "ebd1563967fdf1e778255d0eb2315859858d04094ad2ad5a88dfae0a8dec48c9",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/timeseries_index.py",
+        "path_type": "hardlink",
+        "sha256": "86be0c5e3dafe37e21996e9f580ba8b78b56bde6f39fb2a7b0d83410a79987d5",
+        "sha256_in_prefix": "86be0c5e3dafe37e21996e9f580ba8b78b56bde6f39fb2a7b0d83410a79987d5",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/typeset.py",
+        "path_type": "hardlink",
+        "sha256": "77ab3c195f8a3284336ab2d9bb372f02ad9541288a91ea9a42d0ad5ad334ddeb",
+        "sha256_in_prefix": "77ab3c195f8a3284336ab2d9bb372f02ad9541288a91ea9a42d0ad5ad334ddeb",
+        "size_in_bytes": 11621
+      },
+      {
+        "_path": "site-packages/ydata_profiling/model/typeset_relations.py",
+        "path_type": "hardlink",
+        "sha256": "028e7766e824b99cec9be7a4cf605f4723c0b3c9ed615d19cf5ca567b4da0650",
+        "sha256_in_prefix": "028e7766e824b99cec9be7a4cf605f4723c0b3c9ed615d19cf5ca567b4da0650",
+        "size_in_bytes": 4281
+      },
+      {
+        "_path": "site-packages/ydata_profiling/profile_report.py",
+        "path_type": "hardlink",
+        "sha256": "8701e40fc21586d30deb3ec981eb3648b393f5023e7fe0269902df9ae0961b4d",
+        "sha256_in_prefix": "8701e40fc21586d30deb3ec981eb3648b393f5023e7fe0269902df9ae0961b4d",
+        "size_in_bytes": 20164
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d21f82cb278b10a5ccd7ab78378e3b0fd75452def07b267f489441b44b552b14",
+        "sha256_in_prefix": "d21f82cb278b10a5ccd7ab78378e3b0fd75452def07b267f489441b44b552b14",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "fa99f5b5247dabc5b37eac3572c9b87e21bfa2e28ba21b02d044cab1925ab474",
+        "sha256_in_prefix": "fa99f5b5247dabc5b37eac3572c9b87e21bfa2e28ba21b02d044cab1925ab474",
+        "size_in_bytes": 9729
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93e77579ccce0a5204bebc66c145a2a7a71b5eff4208aa691445097d6422c147",
+        "sha256_in_prefix": "93e77579ccce0a5204bebc66c145a2a7a71b5eff4208aa691445097d6422c147",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "602b46a9452c171feedb8aed461074182f0d70077bfe419eb0d743ad301dd673",
+        "sha256_in_prefix": "602b46a9452c171feedb8aed461074182f0d70077bfe419eb0d743ad301dd673",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/alerts.py",
+        "path_type": "hardlink",
+        "sha256": "ad2b5ac1d9ab696b6d0dcbce131164d197c25d9fc8e124422441cb330ca9f93c",
+        "sha256_in_prefix": "ad2b5ac1d9ab696b6d0dcbce131164d197c25d9fc8e124422441cb330ca9f93c",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "018acbf040904f70f71e277b34b152b8005ff859f163782b8500e0b088af1524",
+        "sha256_in_prefix": "018acbf040904f70f71e277b34b152b8005ff859f163782b8500e0b088af1524",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/container.py",
+        "path_type": "hardlink",
+        "sha256": "99080a0e2ed800314035bbb0d6d5e6aafc3756d7ff3feaa5f14fa1933dfdae81",
+        "sha256_in_prefix": "99080a0e2ed800314035bbb0d6d5e6aafc3756d7ff3feaa5f14fa1933dfdae81",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/correlation_table.py",
+        "path_type": "hardlink",
+        "sha256": "83862dd44180a29dea312762d1a9d2108a6ab73acfa2b71fc43b2f5e5349cde0",
+        "sha256_in_prefix": "83862dd44180a29dea312762d1a9d2108a6ab73acfa2b71fc43b2f5e5349cde0",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/dropdown.py",
+        "path_type": "hardlink",
+        "sha256": "042b459482d36d9aa7742c0625b948d85b998ab9d83f6d0d4802f1885bfa27e2",
+        "sha256_in_prefix": "042b459482d36d9aa7742c0625b948d85b998ab9d83f6d0d4802f1885bfa27e2",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "6d2f6849455b3df5508e4417106a0f463ee22051282e3bd189fd3a71cdd7a595",
+        "sha256_in_prefix": "6d2f6849455b3df5508e4417106a0f463ee22051282e3bd189fd3a71cdd7a595",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "882bd4eafe648e75509fc1e8b58485ede4bbfd08a8eea28c94f434f441c90429",
+        "sha256_in_prefix": "882bd4eafe648e75509fc1e8b58485ede4bbfd08a8eea28c94f434f441c90429",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "4d2f697fb5312ca615a83a81ebb45e14c383943a249cb4e60d92d5dd944bdd14",
+        "sha256_in_prefix": "4d2f697fb5312ca615a83a81ebb45e14c383943a249cb4e60d92d5dd944bdd14",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/html.py",
+        "path_type": "hardlink",
+        "sha256": "0c80fd1d547f2d325b16417de53f6e64a1eed776411192944f9be0989f63175e",
+        "sha256_in_prefix": "0c80fd1d547f2d325b16417de53f6e64a1eed776411192944f9be0989f63175e",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/image.py",
+        "path_type": "hardlink",
+        "sha256": "50a1bdf770d5c202adf9db8670ebdb293753351cf543ae11207dc33f275e1575",
+        "sha256_in_prefix": "50a1bdf770d5c202adf9db8670ebdb293753351cf543ae11207dc33f275e1575",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/item_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "7e3bdc06be29f0f4da67b34fc509ae0dfb15851fa8fec88c2caf6e1cdbd26f31",
+        "sha256_in_prefix": "7e3bdc06be29f0f4da67b34fc509ae0dfb15851fa8fec88c2caf6e1cdbd26f31",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/renderable.py",
+        "path_type": "hardlink",
+        "sha256": "6b05e859cfb4c87783a88b7b4321ed1f521fa2e177430e71a2f05b9fe94d7365",
+        "sha256_in_prefix": "6b05e859cfb4c87783a88b7b4321ed1f521fa2e177430e71a2f05b9fe94d7365",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/root.py",
+        "path_type": "hardlink",
+        "sha256": "33c785b0fb330f966f8c17c4516637de9175888a4a8c5df0575ef5a6986154c1",
+        "sha256_in_prefix": "33c785b0fb330f966f8c17c4516637de9175888a4a8c5df0575ef5a6986154c1",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/sample.py",
+        "path_type": "hardlink",
+        "sha256": "65506f6fe6f988a0b0096e38d3d9ee6d5cfae08f59a556593b69ec6703e2c9f4",
+        "sha256_in_prefix": "65506f6fe6f988a0b0096e38d3d9ee6d5cfae08f59a556593b69ec6703e2c9f4",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/table.py",
+        "path_type": "hardlink",
+        "sha256": "915162d58ee503448097cb9a86ffee797cefe6397309cb3153282ab09e587d07",
+        "sha256_in_prefix": "915162d58ee503448097cb9a86ffee797cefe6397309cb3153282ab09e587d07",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "53a1ccef1b94c233f1638ccac6b000c23e5609a8e7593ec2bec0834ebe36ed49",
+        "sha256_in_prefix": "53a1ccef1b94c233f1638ccac6b000c23e5609a8e7593ec2bec0834ebe36ed49",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/variable.py",
+        "path_type": "hardlink",
+        "sha256": "e45bda4e0b9e726f85fc756798896670293cd532cb04478961b37bfcf0e8e649",
+        "sha256_in_prefix": "e45bda4e0b9e726f85fc756798896670293cd532cb04478961b37bfcf0e8e649",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/core/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "f0a545797b0f2f8a36c7e5c0686c54016e4b478e3ca1d5bfff75995846d5642e",
+        "sha256_in_prefix": "f0a545797b0f2f8a36c7e5c0686c54016e4b478e3ca1d5bfff75995846d5642e",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8abe8e4e73f94fb04dc9ff602a7c2f3ba63f3eb6a10c929a2f688b508a2cfa15",
+        "sha256_in_prefix": "8abe8e4e73f94fb04dc9ff602a7c2f3ba63f3eb6a10c929a2f688b508a2cfa15",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/flavours.py",
+        "path_type": "hardlink",
+        "sha256": "96a9ba42eae4ae249b41f089613fa4160b9e157cdaa92d14186626afa79ba769",
+        "sha256_in_prefix": "96a9ba42eae4ae249b41f089613fa4160b9e157cdaa92d14186626afa79ba769",
+        "size_in_bytes": 3964
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "694eab53a1d06d45bc2720222b91e794cfa5aae2a8b957c29b585650dd07f7ea",
+        "sha256_in_prefix": "694eab53a1d06d45bc2720222b91e794cfa5aae2a8b957c29b585650dd07f7ea",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/alerts.py",
+        "path_type": "hardlink",
+        "sha256": "48508f676efae85120af5bb7bfd49f164c729da88945fbad4634e7a8b68c9c59",
+        "sha256_in_prefix": "48508f676efae85120af5bb7bfd49f164c729da88945fbad4634e7a8b68c9c59",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "f9b5b2299ceffa878a21d8ee9aef0f646d3ba4623f514902cc3dccf8048944dc",
+        "sha256_in_prefix": "f9b5b2299ceffa878a21d8ee9aef0f646d3ba4623f514902cc3dccf8048944dc",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/container.py",
+        "path_type": "hardlink",
+        "sha256": "4b4ac777fa89384e89527a7af9a42d92adb6f3dcac725270c540889560e05dfc",
+        "sha256_in_prefix": "4b4ac777fa89384e89527a7af9a42d92adb6f3dcac725270c540889560e05dfc",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/correlation_table.py",
+        "path_type": "hardlink",
+        "sha256": "8c511c96b94fc9954a3222db61b2fae91747f36555c0200af6ab8e40af2dba26",
+        "sha256_in_prefix": "8c511c96b94fc9954a3222db61b2fae91747f36555c0200af6ab8e40af2dba26",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/dropdown.py",
+        "path_type": "hardlink",
+        "sha256": "4a6ebbf1394dcd7a8e121aa1a28760333879112261e521bd10e66bf7cafe8e5e",
+        "sha256_in_prefix": "4a6ebbf1394dcd7a8e121aa1a28760333879112261e521bd10e66bf7cafe8e5e",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "b738776296321847166bef2f3da115295fc3e04cab6db078ee8f7053f365972a",
+        "sha256_in_prefix": "b738776296321847166bef2f3da115295fc3e04cab6db078ee8f7053f365972a",
+        "size_in_bytes": 742
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "a7389e83817cd0a7f4d845240f3b287daaeee02c9f02d4fc8d6c7d1a08f87fb2",
+        "sha256_in_prefix": "a7389e83817cd0a7f4d845240f3b287daaeee02c9f02d4fc8d6c7d1a08f87fb2",
+        "size_in_bytes": 726
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "8901311939bb76aa6620939a772ddd76bd76679fb11c86a6a0287a533acfeefb",
+        "sha256_in_prefix": "8901311939bb76aa6620939a772ddd76bd76679fb11c86a6a0287a533acfeefb",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/html.py",
+        "path_type": "hardlink",
+        "sha256": "e522ebfb15d812484501f24ca6ae166818120fd7210675136b5a1a00524e8d2c",
+        "sha256_in_prefix": "e522ebfb15d812484501f24ca6ae166818120fd7210675136b5a1a00524e8d2c",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/image.py",
+        "path_type": "hardlink",
+        "sha256": "ff880c64920eba57679830981044b1ca7324a30212eb03da2bb85afdaca5d5a5",
+        "sha256_in_prefix": "ff880c64920eba57679830981044b1ca7324a30212eb03da2bb85afdaca5d5a5",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/root.py",
+        "path_type": "hardlink",
+        "sha256": "d0c55bf988365f56b12351384bab04d861c0514b1c40de33845106ca3c8521a0",
+        "sha256_in_prefix": "d0c55bf988365f56b12351384bab04d861c0514b1c40de33845106ca3c8521a0",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/sample.py",
+        "path_type": "hardlink",
+        "sha256": "f143c2888e9d7a4da94d4ec947d63a5c3d8a4a1f8e97646098cdc954570967ad",
+        "sha256_in_prefix": "f143c2888e9d7a4da94d4ec947d63a5c3d8a4a1f8e97646098cdc954570967ad",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/table.py",
+        "path_type": "hardlink",
+        "sha256": "256c20a2e28309f436cd6d70f30e5805a5b28a5947d93ffd9f5d95f3082a5848",
+        "sha256_in_prefix": "256c20a2e28309f436cd6d70f30e5805a5b28a5947d93ffd9f5d95f3082a5848",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates.py",
+        "path_type": "hardlink",
+        "sha256": "30aa0f647d67fd8716b7f2f71883a6d3c028e2c67ce048a1b19dd835479730b0",
+        "sha256_in_prefix": "30aa0f647d67fd8716b7f2f71883a6d3c028e2c67ce048a1b19dd835479730b0",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts.html",
+        "path_type": "hardlink",
+        "sha256": "48bfbd22553ecfd9d655e1ceb8f6ca4f91ee7c1e740ba0e5ccd74e7bc544f997",
+        "sha256_in_prefix": "48bfbd22553ecfd9d655e1ceb8f6ca4f91ee7c1e740ba0e5ccd74e7bc544f997",
+        "size_in_bytes": 2084
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_constant.html",
+        "path_type": "hardlink",
+        "sha256": "5edfd8194de98af996a1753e343101b2a694c810263f589d00bfb3875239c7ed",
+        "sha256_in_prefix": "5edfd8194de98af996a1753e343101b2a694c810263f589d00bfb3875239c7ed",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_constant_length.html",
+        "path_type": "hardlink",
+        "sha256": "18370bd772e9dba1f782b52c7ad20f3ed4892401e8378bda45fc22636c287e42",
+        "sha256_in_prefix": "18370bd772e9dba1f782b52c7ad20f3ed4892401e8378bda45fc22636c287e42",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_duplicates.html",
+        "path_type": "hardlink",
+        "sha256": "4cf5e6e5f56054ab6b6bba03d90849705d33fc9953363eb5b7d48f53c4a556bc",
+        "sha256_in_prefix": "4cf5e6e5f56054ab6b6bba03d90849705d33fc9953363eb5b7d48f53c4a556bc",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_empty.html",
+        "path_type": "hardlink",
+        "sha256": "9232efe2230be5d115ae1621dee73e6774895873e8d532486b1dc6adb79ad5f1",
+        "sha256_in_prefix": "9232efe2230be5d115ae1621dee73e6774895873e8d532486b1dc6adb79ad5f1",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_high_cardinality.html",
+        "path_type": "hardlink",
+        "sha256": "acada6202bdfaff2d7344b9a9e7e47b3d5bc892bba9896ecfe30913e7c495816",
+        "sha256_in_prefix": "acada6202bdfaff2d7344b9a9e7e47b3d5bc892bba9896ecfe30913e7c495816",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_high_correlation.html",
+        "path_type": "hardlink",
+        "sha256": "f80675e41c5aac63cef1883a0174fe5b6d27fc023755836af317ea72b003fac1",
+        "sha256_in_prefix": "f80675e41c5aac63cef1883a0174fe5b6d27fc023755836af317ea72b003fac1",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_imbalance.html",
+        "path_type": "hardlink",
+        "sha256": "c7b175fea82e9afb42754bfaa4c0c22772b32d1b1b15cfc8c89c530059ee6076",
+        "sha256_in_prefix": "c7b175fea82e9afb42754bfaa4c0c22772b32d1b1b15cfc8c89c530059ee6076",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_infinite.html",
+        "path_type": "hardlink",
+        "sha256": "aad653f2bc8508ea8084886f9c01bacb4bf7d3b7183b1e667d53b748af18bfd2",
+        "sha256_in_prefix": "aad653f2bc8508ea8084886f9c01bacb4bf7d3b7183b1e667d53b748af18bfd2",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_missing.html",
+        "path_type": "hardlink",
+        "sha256": "0647f371118c51e912493fa11593bd59de4be894d9b88524cbd764a1cbea0060",
+        "sha256_in_prefix": "0647f371118c51e912493fa11593bd59de4be894d9b88524cbd764a1cbea0060",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_non_stationary.html",
+        "path_type": "hardlink",
+        "sha256": "7e675e8dcc3edd5f9066f33a0931a394c54a5eb7a12641bf5b70fc164ab2acaf",
+        "sha256_in_prefix": "7e675e8dcc3edd5f9066f33a0931a394c54a5eb7a12641bf5b70fc164ab2acaf",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_seasonal.html",
+        "path_type": "hardlink",
+        "sha256": "8fd1f730ad1d2469ab0acb3a6dd1cc5f2f3580ff46e0535aa8d90b58a98ae674",
+        "sha256_in_prefix": "8fd1f730ad1d2469ab0acb3a6dd1cc5f2f3580ff46e0535aa8d90b58a98ae674",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_skewed.html",
+        "path_type": "hardlink",
+        "sha256": "c555e033cfb39e34becce151941390e6f42e6cf5be3240a2b1d00f8e8a50381b",
+        "sha256_in_prefix": "c555e033cfb39e34becce151941390e6f42e6cf5be3240a2b1d00f8e8a50381b",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_truncated.html",
+        "path_type": "hardlink",
+        "sha256": "207aedf6ec1b691cfc7e5719c00e1c1eed8e2794ae79bc7a9ee054d62309e122",
+        "sha256_in_prefix": "207aedf6ec1b691cfc7e5719c00e1c1eed8e2794ae79bc7a9ee054d62309e122",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_type_date.html",
+        "path_type": "hardlink",
+        "sha256": "29213eb5b09ca5776688c666aa6d5bc90c94ade3bf9fc42377426b7b4f809f83",
+        "sha256_in_prefix": "29213eb5b09ca5776688c666aa6d5bc90c94ade3bf9fc42377426b7b4f809f83",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_uniform.html",
+        "path_type": "hardlink",
+        "sha256": "359e05781f5e5c91e8f1f1b93e92953196348165829beb12d5202624fdf501ab",
+        "sha256_in_prefix": "359e05781f5e5c91e8f1f1b93e92953196348165829beb12d5202624fdf501ab",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_unique.html",
+        "path_type": "hardlink",
+        "sha256": "84033b9edc27b85cdf9e68c715f3d155783eef9a2b94b61c50f96f91425bdd13",
+        "sha256_in_prefix": "84033b9edc27b85cdf9e68c715f3d155783eef9a2b94b61c50f96f91425bdd13",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_unsupported.html",
+        "path_type": "hardlink",
+        "sha256": "e5b4e3310465edd582b989b84305f326310906a36c29360cf0b1a59ff3cfdfa6",
+        "sha256_in_prefix": "e5b4e3310465edd582b989b84305f326310906a36c29360cf0b1a59ff3cfdfa6",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/alerts/alert_zeros.html",
+        "path_type": "hardlink",
+        "sha256": "571155fdc8e8ef659f984379b578e8874608e8f534b601171a32030707851514",
+        "sha256_in_prefix": "571155fdc8e8ef659f984379b578e8874608e8f534b601171a32030707851514",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/collapse.html",
+        "path_type": "hardlink",
+        "sha256": "345f861753f56a3b2766b9a67442203a124b3cbf5cea35d57dae6e3f447ac829",
+        "sha256_in_prefix": "345f861753f56a3b2766b9a67442203a124b3cbf5cea35d57dae6e3f447ac829",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/correlation_table.html",
+        "path_type": "hardlink",
+        "sha256": "8f8a5724f210d3c583bf7f13ca264a920443b536f05ffb0cae2419475544eddf",
+        "sha256_in_prefix": "8f8a5724f210d3c583bf7f13ca264a920443b536f05ffb0cae2419475544eddf",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/diagram.html",
+        "path_type": "hardlink",
+        "sha256": "25303b2a247db713f1f4a796145fb43a85b20bb8564febfa0deee4c53b12db7d",
+        "sha256_in_prefix": "25303b2a247db713f1f4a796145fb43a85b20bb8564febfa0deee4c53b12db7d",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/dropdown.html",
+        "path_type": "hardlink",
+        "sha256": "f5ca608ed1d883f45603e3df9b26e59b080ac8fb61dc569cc9718ecdae769ea1",
+        "sha256_in_prefix": "f5ca608ed1d883f45603e3df9b26e59b080ac8fb61dc569cc9718ecdae769ea1",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/duplicate.html",
+        "path_type": "hardlink",
+        "sha256": "6466d9fb1f3fe58f2d68f3601418d75216285d8bc1103845a55f73b2a7e00682",
+        "sha256_in_prefix": "6466d9fb1f3fe58f2d68f3601418d75216285d8bc1103845a55f73b2a7e00682",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/frequency_table.html",
+        "path_type": "hardlink",
+        "sha256": "124ff631d61c71dd3abba8beada8d22d6010c83119d3601798c49b9c4d324df4",
+        "sha256_in_prefix": "124ff631d61c71dd3abba8beada8d22d6010c83119d3601798c49b9c4d324df4",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/frequency_table_small.html",
+        "path_type": "hardlink",
+        "sha256": "7dc633011150f735231a1f095360583057a45748f4e80d0ef6bf53d81cc1fb4b",
+        "sha256_in_prefix": "7dc633011150f735231a1f095360583057a45748f4e80d0ef6bf53d81cc1fb4b",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/report.html",
+        "path_type": "hardlink",
+        "sha256": "f3eda6c29f0161f85081826c62f2802dba805c58b98acc61788ac90b79cfd21a",
+        "sha256_in_prefix": "f3eda6c29f0161f85081826c62f2802dba805c58b98acc61788ac90b79cfd21a",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sample.html",
+        "path_type": "hardlink",
+        "sha256": "42fde729c50cb7dd76a2c6ad9bd8b97154dcc3ee2505803647ecb9b04fd3e2cf",
+        "sha256_in_prefix": "42fde729c50cb7dd76a2c6ad9bd8b97154dcc3ee2505803647ecb9b04fd3e2cf",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/batch_grid.html",
+        "path_type": "hardlink",
+        "sha256": "04db518cff001c6e180cac4d45f4b10b6b01cb2c88678ce4fe8969f805d0c29f",
+        "sha256_in_prefix": "04db518cff001c6e180cac4d45f4b10b6b01cb2c88678ce4fe8969f805d0c29f",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/grid.html",
+        "path_type": "hardlink",
+        "sha256": "d982518e29034a9f82e431cdf50196bb7c4d0bf121ae07787bc46cb43408c799",
+        "sha256_in_prefix": "d982518e29034a9f82e431cdf50196bb7c4d0bf121ae07787bc46cb43408c799",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/list.html",
+        "path_type": "hardlink",
+        "sha256": "15a88479d5a1e9e2d73643b3020ea9704cf7161c36e3a0ed58914d2fcd3c9cd3",
+        "sha256_in_prefix": "15a88479d5a1e9e2d73643b3020ea9704cf7161c36e3a0ed58914d2fcd3c9cd3",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/named_list.html",
+        "path_type": "hardlink",
+        "sha256": "f0c67fe9fd88da8e96939a655f2451ce48f545181dfe407378f6ef1ee5ee3578",
+        "sha256_in_prefix": "f0c67fe9fd88da8e96939a655f2451ce48f545181dfe407378f6ef1ee5ee3578",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/sections.html",
+        "path_type": "hardlink",
+        "sha256": "d72ab8e548469dde25c0bb75e1775fd243ac6e71e18d3961edcc5b8582952e2c",
+        "sha256_in_prefix": "d72ab8e548469dde25c0bb75e1775fd243ac6e71e18d3961edcc5b8582952e2c",
+        "size_in_bytes": 775
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/select.html",
+        "path_type": "hardlink",
+        "sha256": "b314a173dfd7443e5908b58cd3e5c14891221b24f1ba9a0634c8ee8e77e9863d",
+        "sha256_in_prefix": "b314a173dfd7443e5908b58cd3e5c14891221b24f1ba9a0634c8ee8e77e9863d",
+        "size_in_bytes": 1711
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/sequence/tabs.html",
+        "path_type": "hardlink",
+        "sha256": "d92d59185499b17677977a21d66a2e72036b0e8ffcdcd1a20e5a40de09808c65",
+        "sha256_in_prefix": "d92d59185499b17677977a21d66a2e72036b0e8ffcdcd1a20e5a40de09808c65",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/table.html",
+        "path_type": "hardlink",
+        "sha256": "d45dccac4acd9691b7b2ea5f9f4a949fad5f7273406f907b36b70f35f1e58608",
+        "sha256_in_prefix": "d45dccac4acd9691b7b2ea5f9f4a949fad5f7273406f907b36b70f35f1e58608",
+        "size_in_bytes": 1646
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/toggle_button.html",
+        "path_type": "hardlink",
+        "sha256": "68fe08795dcd53cc326fa6788f1282ecc0ca3a8903e228d1e18c362036e345ad",
+        "sha256_in_prefix": "68fe08795dcd53cc326fa6788f1282ecc0ca3a8903e228d1e18c362036e345ad",
+        "size_in_bytes": 632
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/variable.html",
+        "path_type": "hardlink",
+        "sha256": "a738fc5e41fd8a4d948ecdef9ad0783189416a902ed0d1d9503ffa2f31961d04",
+        "sha256_in_prefix": "a738fc5e41fd8a4d948ecdef9ad0783189416a902ed0d1d9503ffa2f31961d04",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/variable_info.html",
+        "path_type": "hardlink",
+        "sha256": "0656a9c64bc8ac34ec455a2e10d590e58b498dedf664105f51675bc0b850b57a",
+        "sha256_in_prefix": "0656a9c64bc8ac34ec455a2e10d590e58b498dedf664105f51675bc0b850b57a",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.bundle.min.js",
+        "path_type": "hardlink",
+        "sha256": "0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c",
+        "sha256_in_prefix": "0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c",
+        "size_in_bytes": 80721
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8",
+        "sha256_in_prefix": "3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8",
+        "size_in_bytes": 232803
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/cosmo.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "a31eaafb6004e4a1b2dc4e6e843f244e3dc56907e4658591264d173a646a2081",
+        "sha256_in_prefix": "a31eaafb6004e4a1b2dc4e6e843f244e3dc56907e4658591264d173a646a2081",
+        "size_in_bytes": 223435
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/flatly.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "d8e670a049df3656d5883470c0bd43f5e615419b1794ff511919dd69d50f5913",
+        "sha256_in_prefix": "d8e670a049df3656d5883470c0bd43f5e615419b1794ff511919dd69d50f5913",
+        "size_in_bytes": 233429
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/script.js",
+        "path_type": "hardlink",
+        "sha256": "26daecaee5811fec98b068c631535a01b985006220d5c6aaa7e99cd0ef90708c",
+        "sha256_in_prefix": "26daecaee5811fec98b068c631535a01b985006220d5c6aaa7e99cd0ef90708c",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/simplex.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "5e7ad71a03278f586e594172c17f4af59ac6d1c531668744db28dc3dcc07b773",
+        "sha256_in_prefix": "5e7ad71a03278f586e594172c17f4af59ac6d1c531668744db28dc3dcc07b773",
+        "size_in_bytes": 234306
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/style.css",
+        "path_type": "hardlink",
+        "sha256": "7641f2e4a946387dabc63c869f303581d0f0c93b1f4dc26f85003b30faa60420",
+        "sha256_in_prefix": "7641f2e4a946387dabc63c869f303581d0f0c93b1f4dc26f85003b30faa60420",
+        "size_in_bytes": 4706
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/assets/united.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "45bb2a1ce6ce2b6aedfcb40f9aa5a60c9e73cf443920a246a9a49a9cab527c5b",
+        "sha256_in_prefix": "45bb2a1ce6ce2b6aedfcb40f9aa5a60c9e73cf443920a246a9a49a9cab527c5b",
+        "size_in_bytes": 233002
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/footer.html",
+        "path_type": "hardlink",
+        "sha256": "ce75f4796a786bf352e70cfc2b227c0979b929a79c0e1944074b80f271fac446",
+        "sha256_in_prefix": "ce75f4796a786bf352e70cfc2b227c0979b929a79c0e1944074b80f271fac446",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/javascript.html",
+        "path_type": "hardlink",
+        "sha256": "2b8223790358a99634590c17989a3edfc4d2871e6a72c60a77587338695f6179",
+        "sha256_in_prefix": "2b8223790358a99634590c17989a3edfc4d2871e6a72c60a77587338695f6179",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/navigation.html",
+        "path_type": "hardlink",
+        "sha256": "972b69d35e421918a4688645f6e77d0504b4964c376c0a63860d4993cb77fb96",
+        "sha256_in_prefix": "972b69d35e421918a4688645f6e77d0504b4964c376c0a63860d4993cb77fb96",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/templates/wrapper/style.html",
+        "path_type": "hardlink",
+        "sha256": "ce6a52ea2918ecdaf23f08e00d43d32758530170f6698fd06c363c3340b05343",
+        "sha256_in_prefix": "ce6a52ea2918ecdaf23f08e00d43d32758530170f6698fd06c363c3340b05343",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "fa641fb3b5f11ab93045883a35c295ad92e62738dd41e88e3ceaac6d51630865",
+        "sha256_in_prefix": "fa641fb3b5f11ab93045883a35c295ad92e62738dd41e88e3ceaac6d51630865",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/variable.py",
+        "path_type": "hardlink",
+        "sha256": "4a7e0dc58ef12d43087c83253850a83d657e61287eb6d8cdb3cc631d229b0259",
+        "sha256_in_prefix": "4a7e0dc58ef12d43087c83253850a83d657e61287eb6d8cdb3cc631d229b0259",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/html/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "cf586de767ab53617c876d48fc17d17ea4be1d1e4352902655eeece467f4014e",
+        "sha256_in_prefix": "cf586de767ab53617c876d48fc17d17ea4be1d1e4352902655eeece467f4014e",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "60985ea9086b2b5714985555d08032c939c7e7baf8c5249dbc171e40bbc94a83",
+        "sha256_in_prefix": "60985ea9086b2b5714985555d08032c939c7e7baf8c5249dbc171e40bbc94a83",
+        "size_in_bytes": 1895
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/alerts.py",
+        "path_type": "hardlink",
+        "sha256": "0cdfa5147ea3421f48365b440a8c1ab4d12e23d2c2813386e03f740e1f55cac8",
+        "sha256_in_prefix": "0cdfa5147ea3421f48365b440a8c1ab4d12e23d2c2813386e03f740e1f55cac8",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "30ea8e1169e7b68bc72b77a413c3d9060e8afaad0e41ceb9c9d1d9851b0553a1",
+        "sha256_in_prefix": "30ea8e1169e7b68bc72b77a413c3d9060e8afaad0e41ceb9c9d1d9851b0553a1",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/container.py",
+        "path_type": "hardlink",
+        "sha256": "dd4b08884e7df5a2dd39f92c6b7b0a1158e67786b644a71f2a99636bee3db2a6",
+        "sha256_in_prefix": "dd4b08884e7df5a2dd39f92c6b7b0a1158e67786b644a71f2a99636bee3db2a6",
+        "size_in_bytes": 3797
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/correlation_table.py",
+        "path_type": "hardlink",
+        "sha256": "477d3b85f0cb8835cbd246cc2d35048761d89870067492cf1e55218dc8145028",
+        "sha256_in_prefix": "477d3b85f0cb8835cbd246cc2d35048761d89870067492cf1e55218dc8145028",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/dropdown.py",
+        "path_type": "hardlink",
+        "sha256": "97deb4a29263489c1724eeb8c0a7cb0cf9b31a80164b80383561821d216202c1",
+        "sha256_in_prefix": "97deb4a29263489c1724eeb8c0a7cb0cf9b31a80164b80383561821d216202c1",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "f0fbb9ba38e936bcfbb28aaa182c8728717af42adb462fa3e816fcce07bbde89",
+        "sha256_in_prefix": "f0fbb9ba38e936bcfbb28aaa182c8728717af42adb462fa3e816fcce07bbde89",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "22003b69854925ec715a5471a398e82feeed3aa22061502cf984c3385600f8c4",
+        "sha256_in_prefix": "22003b69854925ec715a5471a398e82feeed3aa22061502cf984c3385600f8c4",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "1029c2e42fbb97844d3d8b1391b38576c8d186d607e4423f75481588d714dd91",
+        "sha256_in_prefix": "1029c2e42fbb97844d3d8b1391b38576c8d186d607e4423f75481588d714dd91",
+        "size_in_bytes": 2053
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/html.py",
+        "path_type": "hardlink",
+        "sha256": "2f69b2d974022519e645d90638b94ccd07bad6751e370a5e41312f3afb6ea5a3",
+        "sha256_in_prefix": "2f69b2d974022519e645d90638b94ccd07bad6751e370a5e41312f3afb6ea5a3",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/image.py",
+        "path_type": "hardlink",
+        "sha256": "9d97f0e565c9a01b06cfde8e3bc6c75c1efe0aad857c4e8ceea1aea7a14e47b4",
+        "sha256_in_prefix": "9d97f0e565c9a01b06cfde8e3bc6c75c1efe0aad857c4e8ceea1aea7a14e47b4",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "389eb5096fe8349a707176d9e70f7d4812abdcf7d9222ab0767cab19d0585571",
+        "sha256_in_prefix": "389eb5096fe8349a707176d9e70f7d4812abdcf7d9222ab0767cab19d0585571",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/root.py",
+        "path_type": "hardlink",
+        "sha256": "751b0dd9005a1da8cc40d47b86a09b0171774fbbbf366a7351b09185ecbc80d0",
+        "sha256_in_prefix": "751b0dd9005a1da8cc40d47b86a09b0171774fbbbf366a7351b09185ecbc80d0",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/sample.py",
+        "path_type": "hardlink",
+        "sha256": "34cc31d04e77ddee7f213f361e954c39d3b4eb1ad3abd3074a6bf63cfd289711",
+        "sha256_in_prefix": "34cc31d04e77ddee7f213f361e954c39d3b4eb1ad3abd3074a6bf63cfd289711",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/table.py",
+        "path_type": "hardlink",
+        "sha256": "c573fa33a17ba124a7b6f3cbbaa67c47230d68215f4f5ff319ea91b5e303f9e2",
+        "sha256_in_prefix": "c573fa33a17ba124a7b6f3cbbaa67c47230d68215f4f5ff319ea91b5e303f9e2",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "abc1cdded2a06e21b2d1e3b6b28b2396692e6b377825f91497e2ab08bff40efa",
+        "sha256_in_prefix": "abc1cdded2a06e21b2d1e3b6b28b2396692e6b377825f91497e2ab08bff40efa",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/variable.py",
+        "path_type": "hardlink",
+        "sha256": "a3c198f293a1382f5fef76f39264b5a48204dbca178d0369e21d844c1a8e756b",
+        "sha256_in_prefix": "a3c198f293a1382f5fef76f39264b5a48204dbca178d0369e21d844c1a8e756b",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/flavours/widget/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "82508875f99c45c6129587269f0c7af2e7efe549580b4763436a950dfa4c7932",
+        "sha256_in_prefix": "82508875f99c45c6129587269f0c7af2e7efe549580b4763436a950dfa4c7932",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/presentation/frequency_table_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8c379eb503d01082e832e547820e471a43f2059be4013a2c8c5b59fa47cc0b1c",
+        "sha256_in_prefix": "8c379eb503d01082e832e547820e471a43f2059be4013a2c8c5b59fa47cc0b1c",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3802ecfef5741d477fcbb808595df7b0ed21cac3e687a51fb0517ff7e81a8de",
+        "sha256_in_prefix": "e3802ecfef5741d477fcbb808595df7b0ed21cac3e687a51fb0517ff7e81a8de",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/correlations.py",
+        "path_type": "hardlink",
+        "sha256": "21e2238af2a0c8f00d5a856f1d1ea5e734f557d2fffd431268977ea2ab33b750",
+        "sha256_in_prefix": "21e2238af2a0c8f00d5a856f1d1ea5e734f557d2fffd431268977ea2ab33b750",
+        "size_in_bytes": 4036
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/overview.py",
+        "path_type": "hardlink",
+        "sha256": "b4e0c137ed41cb581880756eef5e9d9db11c1dc65817a708306a572ea61ae995",
+        "sha256_in_prefix": "b4e0c137ed41cb581880756eef5e9d9db11c1dc65817a708306a572ea61ae995",
+        "size_in_bytes": 11312
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/report.py",
+        "path_type": "hardlink",
+        "sha256": "9c4a51181c829302341f2d50c2d48576aa77a1a3e23cde5c11e43e2c0b4d71b6",
+        "sha256_in_prefix": "9c4a51181c829302341f2d50c2d48576aa77a1a3e23cde5c11e43e2c0b4d71b6",
+        "size_in_bytes": 14986
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a3a68cf08423169b8dcdff1cd38ad25fd11de365d1aebfd5391a96d209d7d66",
+        "sha256_in_prefix": "7a3a68cf08423169b8dcdff1cd38ad25fd11de365d1aebfd5391a96d209d7d66",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_boolean.py",
+        "path_type": "hardlink",
+        "sha256": "ee3bb57e1c3799645e3a2055fbd74c49ad87e67e1cae600e7f932332fbec423c",
+        "sha256_in_prefix": "ee3bb57e1c3799645e3a2055fbd74c49ad87e67e1cae600e7f932332fbec423c",
+        "size_in_bytes": 4375
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "8812dda6732469bad21dc5b8d4873f10730243115ec68d66e87c82344ef6cf36",
+        "sha256_in_prefix": "8812dda6732469bad21dc5b8d4873f10730243115ec68d66e87c82344ef6cf36",
+        "size_in_bytes": 17986
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_common.py",
+        "path_type": "hardlink",
+        "sha256": "6e1d355f9b3f5a6e76281a1b516b0531691a588315562827d2f2aeaf8afceb25",
+        "sha256_in_prefix": "6e1d355f9b3f5a6e76281a1b516b0531691a588315562827d2f2aeaf8afceb25",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_complex.py",
+        "path_type": "hardlink",
+        "sha256": "6e5121e96e8a12b9896c4b973b2f75d8179d30bfa8e358cfc5622913654de5ba",
+        "sha256_in_prefix": "6e5121e96e8a12b9896c4b973b2f75d8179d30bfa8e358cfc5622913654de5ba",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_count.py",
+        "path_type": "hardlink",
+        "sha256": "e498af6fdd0005404a5279833f3ef38bd961127ea7b3193e51ab3aa744feec4f",
+        "sha256_in_prefix": "e498af6fdd0005404a5279833f3ef38bd961127ea7b3193e51ab3aa744feec4f",
+        "size_in_bytes": 4391
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_date.py",
+        "path_type": "hardlink",
+        "sha256": "3f9863c4c17450063c17633b8c58a268e767bbab41790a8d52e08ec638e08e87",
+        "sha256_in_prefix": "3f9863c4c17450063c17633b8c58a268e767bbab41790a8d52e08ec638e08e87",
+        "size_in_bytes": 3835
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_file.py",
+        "path_type": "hardlink",
+        "sha256": "a10e03b471b59c32be51ec48b99ce05e09369f018c7a42e1e915b91c177a74b5",
+        "sha256_in_prefix": "a10e03b471b59c32be51ec48b99ce05e09369f018c7a42e1e915b91c177a74b5",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_generic.py",
+        "path_type": "hardlink",
+        "sha256": "c6e2f0add5a8069e0c0208ea56a5e01d4972115b166fd2280b56ff4ae2e91892",
+        "sha256_in_prefix": "c6e2f0add5a8069e0c0208ea56a5e01d4972115b166fd2280b56ff4ae2e91892",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_image.py",
+        "path_type": "hardlink",
+        "sha256": "49bc23651e17af84d96f4c920d9da6dee7171ecaa0df906b50f8cd756b7fb877",
+        "sha256_in_prefix": "49bc23651e17af84d96f4c920d9da6dee7171ecaa0df906b50f8cd756b7fb877",
+        "size_in_bytes": 6950
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_path.py",
+        "path_type": "hardlink",
+        "sha256": "30c24a244ddb3f9673e78b133af85264e986ca03975529615443bba4b6efae0d",
+        "sha256_in_prefix": "30c24a244ddb3f9673e78b133af85264e986ca03975529615443bba4b6efae0d",
+        "size_in_bytes": 4466
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_real.py",
+        "path_type": "hardlink",
+        "sha256": "a4ca919b5aa342206bae369bfacfa55ace3dedb73d277c63cbe7662f91cc2f6b",
+        "sha256_in_prefix": "a4ca919b5aa342206bae369bfacfa55ace3dedb73d277c63cbe7662f91cc2f6b",
+        "size_in_bytes": 9588
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_text.py",
+        "path_type": "hardlink",
+        "sha256": "52dcf21c391ab7afe918e34fe1ec8d7f6607fed9a76e06e105c7721942a6ed1c",
+        "sha256_in_prefix": "52dcf21c391ab7afe918e34fe1ec8d7f6607fed9a76e06e105c7721942a6ed1c",
+        "size_in_bytes": 5991
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "6a4705ebf0d4686085908fce5d90f1498314a47e92fb33a984c92aeb09bc3189",
+        "sha256_in_prefix": "6a4705ebf0d4686085908fce5d90f1498314a47e92fb33a984c92aeb09bc3189",
+        "size_in_bytes": 11277
+      },
+      {
+        "_path": "site-packages/ydata_profiling/report/structure/variables/render_url.py",
+        "path_type": "hardlink",
+        "sha256": "336cbb43dc6113d56ae44fab36f8fd62e6713457dfd23c889cf6ce8ba6f99fba",
+        "sha256_in_prefix": "336cbb43dc6113d56ae44fab36f8fd62e6713457dfd23c889cf6ce8ba6f99fba",
+        "size_in_bytes": 4029
+      },
+      {
+        "_path": "site-packages/ydata_profiling/serialize_report.py",
+        "path_type": "hardlink",
+        "sha256": "9479ce81dc4b60673c9b9f05243665b78ccd3a632ec3d46bd701e579f7c7601f",
+        "sha256_in_prefix": "9479ce81dc4b60673c9b9f05243665b78ccd3a632ec3d46bd701e579f7c7601f",
+        "size_in_bytes": 4681
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b011cdfe209ee7895c3bdeb62abb185e283845acd29a525dece978b8b71c68b5",
+        "sha256_in_prefix": "b011cdfe209ee7895c3bdeb62abb185e283845acd29a525dece978b8b71c68b5",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "681a191b4899063e5828f50837e59e58a46ebf321b01ce5a1f75d5477ecf97a1",
+        "sha256_in_prefix": "681a191b4899063e5828f50837e59e58a46ebf321b01ce5a1f75d5477ecf97a1",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/common.py",
+        "path_type": "hardlink",
+        "sha256": "228d1d69f10221f7f553628b03f8b03df77590b05738bff31ebf22cc30928684",
+        "sha256_in_prefix": "228d1d69f10221f7f553628b03f8b03df77590b05738bff31ebf22cc30928684",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/compat.py",
+        "path_type": "hardlink",
+        "sha256": "2e17ad9340084afe138c3fb22530f1644cad1593c98cd10aa2fefedc71af22c1",
+        "sha256_in_prefix": "2e17ad9340084afe138c3fb22530f1644cad1593c98cd10aa2fefedc71af22c1",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "68f2f3d598a4ec016ae5c0b6d26d1875b864b15ee7ab77122b59f9013dda897d",
+        "sha256_in_prefix": "68f2f3d598a4ec016ae5c0b6d26d1875b864b15ee7ab77122b59f9013dda897d",
+        "size_in_bytes": 8401
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/imghdr_patch.py",
+        "path_type": "hardlink",
+        "sha256": "8218e29ec453996494b3b3d0be18851a259b7872da44e77012b3d5dcd2ffb043",
+        "sha256_in_prefix": "8218e29ec453996494b3b3d0be18851a259b7872da44e77012b3d5dcd2ffb043",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/logger.py",
+        "path_type": "hardlink",
+        "sha256": "813df02065e2c4cfc198909f3ae6c2bf5894d603a05af11733bd39c691e9b8bf",
+        "sha256_in_prefix": "813df02065e2c4cfc198909f3ae6c2bf5894d603a05af11733bd39c691e9b8bf",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "8e16d087da64b06b6320e0c46d62e0f71716c726818e7be9de89db1464e477a8",
+        "sha256_in_prefix": "8e16d087da64b06b6320e0c46d62e0f71716c726818e7be9de89db1464e477a8",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/paths.py",
+        "path_type": "hardlink",
+        "sha256": "4bb2f2cbb8a6ca70516daab79508b06702f077395f30f6823456ae33394cdd6e",
+        "sha256_in_prefix": "4bb2f2cbb8a6ca70516daab79508b06702f077395f30f6823456ae33394cdd6e",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/progress_bar.py",
+        "path_type": "hardlink",
+        "sha256": "1079b6711ccba6b284aa6cccca66adcf91f0c7d6b1418859c7778819a2255645",
+        "sha256_in_prefix": "1079b6711ccba6b284aa6cccca66adcf91f0c7d6b1418859c7778819a2255645",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/styles.py",
+        "path_type": "hardlink",
+        "sha256": "334f601a56fe79ca81997d4b7a8ee92f5501c6d09a745a0e9ff6efdaa7d98faf",
+        "sha256_in_prefix": "334f601a56fe79ca81997d4b7a8ee92f5501c6d09a745a0e9ff6efdaa7d98faf",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "site-packages/ydata_profiling/utils/versions.py",
+        "path_type": "hardlink",
+        "sha256": "424836b9ceae9bd0fc58ac40f019f8d1c996731d872f4d7f9820ca0bb71671c4",
+        "sha256_in_prefix": "424836b9ceae9bd0fc58ac40f019f8d1c996731d872f4d7f9820ca0bb71671c4",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "site-packages/ydata_profiling/version.py",
+        "path_type": "hardlink",
+        "sha256": "2019caf95755eae97adb034b1c0c94c04bc0b8a9a4267b782d0fa0087c279362",
+        "sha256_in_prefix": "2019caf95755eae97adb034b1c0c94c04bc0b8a9a4267b782d0fa0087c279362",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/ydata_profiling/visualisation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f83d32c1d39431d312cd8a1f5138b5339b0a5f42da5a2c7fee7f502ffc17d3b",
+        "sha256_in_prefix": "1f83d32c1d39431d312cd8a1f5138b5339b0a5f42da5a2c7fee7f502ffc17d3b",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/ydata_profiling/visualisation/context.py",
+        "path_type": "hardlink",
+        "sha256": "2e944c9a7c3e4ece07b284a1e80aa12369fa830fa42141d33ee13d2d447f9733",
+        "sha256_in_prefix": "2e944c9a7c3e4ece07b284a1e80aa12369fa830fa42141d33ee13d2d447f9733",
+        "size_in_bytes": 2817
+      },
+      {
+        "_path": "site-packages/ydata_profiling/visualisation/missing.py",
+        "path_type": "hardlink",
+        "sha256": "7c8f13ee2c10c8ee4aa736d80c434369ed257ce846761a169784896e712b868d",
+        "sha256_in_prefix": "7c8f13ee2c10c8ee4aa736d80c434369ed257ce846761a169784896e712b868d",
+        "size_in_bytes": 3793
+      },
+      {
+        "_path": "site-packages/ydata_profiling/visualisation/plot.py",
+        "path_type": "hardlink",
+        "sha256": "aa6cf6006aa64b52059a20074e3972628b46958b80d2e10f37b703b59c11c854",
+        "sha256_in_prefix": "aa6cf6006aa64b52059a20074e3972628b46958b80d2e10f37b703b59c11c854",
+        "size_in_bytes": 34068
+      },
+      {
+        "_path": "site-packages/ydata_profiling/visualisation/utils.py",
+        "path_type": "hardlink",
+        "sha256": "cadedecc29b43c5011fb944074a5ed73393f47a7a96bdd7f7ad8d0edf33fa319",
+        "sha256_in_prefix": "cadedecc29b43c5011fb944074a5ed73393f47a7a96bdd7f7ad8d0edf33fa319",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "Lib/site-packages/pandas_profiling/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/compare_reports.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/controller/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/controller/__pycache__/console.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/controller/__pycache__/pandas_decorator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/expectations_report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/alerts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/correlations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/dataframe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/describe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/description.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/duplicates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/expectation_algorithms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/handler.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/missing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/pairwise.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/correlations_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/dataframe_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_boolean_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_categorical_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_counts_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_date_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_file_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_generic_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_image_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_numeric_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_path_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_supported_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_text_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_timeseries_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/describe_url_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/discretize_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/duplicates_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/imbalance_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/missing_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/sample_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/summary_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/table_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/timeseries_index_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/pandas/__pycache__/utils_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/sample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/correlations_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/dataframe_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_boolean_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_categorical_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_counts_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_date_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_generic_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_numeric_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_supported_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/describe_text_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/duplicates_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/missing_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/sample_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/summary_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/table_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/spark/__pycache__/timeseries_index_spark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/summarizer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/summary.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/summary_algorithms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/timeseries_index.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/typeset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/model/__pycache__/typeset_relations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/profile_report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/__pycache__/formatters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/alerts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/collapse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/container.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/correlation_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/dropdown.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/duplicate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/frequency_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/frequency_table_small.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/html.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/item_renderer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/renderable.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/root.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/sample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/toggle_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/variable.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/core/__pycache__/variable_info.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/__pycache__/flavours.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/alerts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/collapse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/container.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/correlation_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/dropdown.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/duplicate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/frequency_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/frequency_table_small.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/html.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/root.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/sample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/templates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/toggle_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/variable.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/html/__pycache__/variable_info.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/alerts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/collapse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/container.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/correlation_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/dropdown.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/duplicate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/frequency_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/frequency_table_small.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/html.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/notebook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/root.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/sample.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/toggle_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/variable.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/flavours/widget/__pycache__/variable_info.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/presentation/__pycache__/frequency_table_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/__pycache__/correlations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/__pycache__/overview.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/__pycache__/report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_complex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_date.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_file.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_generic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_real.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_text.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_timeseries.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/report/structure/variables/__pycache__/render_url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/serialize_report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/cache.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/compat.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/dataframe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/imghdr_patch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/logger.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/notebook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/paths.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/progress_bar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/styles.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/utils/__pycache__/versions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/visualisation/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/visualisation/__pycache__/context.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/visualisation/__pycache__/missing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/visualisation/__pycache__/plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/ydata_profiling/visualisation/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/ydata_profiling-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/ydata_profiling.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ydata-profiling",
+  "sha256": "cace1459fab5777366208d807f82643fcc76eb35f1c75e80dd21c30bf6b14967",
+  "size": 188578,
+  "subdir": "noarch",
+  "timestamp": 1733705900000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ydata-profiling-4.12.1-pyhd8ed1ab_0.conda",
+  "version": "4.12.1"
+}

@@ -1,0 +1,2162 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "attrs >=19.3.0",
+    "multimethod >=1.4",
+    "networkx >=2.4",
+    "numpy >=1.23.2",
+    "pandas >=2.0.0",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\visions-0.7.6-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/visions-0.7.6.dist-info/INSTALLER",
+    "Lib/site-packages/visions-0.7.6.dist-info/LICENSE",
+    "Lib/site-packages/visions-0.7.6.dist-info/METADATA",
+    "Lib/site-packages/visions-0.7.6.dist-info/RECORD",
+    "Lib/site-packages/visions-0.7.6.dist-info/REQUESTED",
+    "Lib/site-packages/visions-0.7.6.dist-info/WHEEL",
+    "Lib/site-packages/visions-0.7.6.dist-info/direct_url.json",
+    "Lib/site-packages/visions-0.7.6.dist-info/top_level.txt",
+    "Lib/site-packages/visions/__init__.py",
+    "Lib/site-packages/visions/backends/__init__.py",
+    "Lib/site-packages/visions/backends/numpy/__init__.py",
+    "Lib/site-packages/visions/backends/numpy/array_utils.py",
+    "Lib/site-packages/visions/backends/numpy/sequences.py",
+    "Lib/site-packages/visions/backends/numpy/test_utils.py",
+    "Lib/site-packages/visions/backends/numpy/types/__init__.py",
+    "Lib/site-packages/visions/backends/numpy/types/boolean.py",
+    "Lib/site-packages/visions/backends/numpy/types/complex.py",
+    "Lib/site-packages/visions/backends/numpy/types/date_time.py",
+    "Lib/site-packages/visions/backends/numpy/types/float.py",
+    "Lib/site-packages/visions/backends/numpy/types/integer.py",
+    "Lib/site-packages/visions/backends/numpy/types/object.py",
+    "Lib/site-packages/visions/backends/numpy/types/string.py",
+    "Lib/site-packages/visions/backends/numpy/types/time_delta.py",
+    "Lib/site-packages/visions/backends/pandas/__init__.py",
+    "Lib/site-packages/visions/backends/pandas/sequences.py",
+    "Lib/site-packages/visions/backends/pandas/series_utils.py",
+    "Lib/site-packages/visions/backends/pandas/test_utils.py",
+    "Lib/site-packages/visions/backends/pandas/traversal.py",
+    "Lib/site-packages/visions/backends/pandas/types/__init__.py",
+    "Lib/site-packages/visions/backends/pandas/types/boolean.py",
+    "Lib/site-packages/visions/backends/pandas/types/categorical.py",
+    "Lib/site-packages/visions/backends/pandas/types/complex.py",
+    "Lib/site-packages/visions/backends/pandas/types/count.py",
+    "Lib/site-packages/visions/backends/pandas/types/date.py",
+    "Lib/site-packages/visions/backends/pandas/types/date_time.py",
+    "Lib/site-packages/visions/backends/pandas/types/email_address.py",
+    "Lib/site-packages/visions/backends/pandas/types/file.py",
+    "Lib/site-packages/visions/backends/pandas/types/float.py",
+    "Lib/site-packages/visions/backends/pandas/types/geometry.py",
+    "Lib/site-packages/visions/backends/pandas/types/image.py",
+    "Lib/site-packages/visions/backends/pandas/types/integer.py",
+    "Lib/site-packages/visions/backends/pandas/types/ip_address.py",
+    "Lib/site-packages/visions/backends/pandas/types/numeric.py",
+    "Lib/site-packages/visions/backends/pandas/types/object.py",
+    "Lib/site-packages/visions/backends/pandas/types/ordinal.py",
+    "Lib/site-packages/visions/backends/pandas/types/path.py",
+    "Lib/site-packages/visions/backends/pandas/types/sparse.py",
+    "Lib/site-packages/visions/backends/pandas/types/string.py",
+    "Lib/site-packages/visions/backends/pandas/types/time.py",
+    "Lib/site-packages/visions/backends/pandas/types/time_delta.py",
+    "Lib/site-packages/visions/backends/pandas/types/url.py",
+    "Lib/site-packages/visions/backends/pandas/types/uuid.py",
+    "Lib/site-packages/visions/backends/python/__init__.py",
+    "Lib/site-packages/visions/backends/python/sequences.py",
+    "Lib/site-packages/visions/backends/python/series_utils.py",
+    "Lib/site-packages/visions/backends/python/types/__init__.py",
+    "Lib/site-packages/visions/backends/python/types/boolean.py",
+    "Lib/site-packages/visions/backends/python/types/categorical.py",
+    "Lib/site-packages/visions/backends/python/types/complex.py",
+    "Lib/site-packages/visions/backends/python/types/count.py",
+    "Lib/site-packages/visions/backends/python/types/date.py",
+    "Lib/site-packages/visions/backends/python/types/date_time.py",
+    "Lib/site-packages/visions/backends/python/types/email_address.py",
+    "Lib/site-packages/visions/backends/python/types/file.py",
+    "Lib/site-packages/visions/backends/python/types/float.py",
+    "Lib/site-packages/visions/backends/python/types/geometry.py",
+    "Lib/site-packages/visions/backends/python/types/image.py",
+    "Lib/site-packages/visions/backends/python/types/integer.py",
+    "Lib/site-packages/visions/backends/python/types/ip_address.py",
+    "Lib/site-packages/visions/backends/python/types/numeric.py",
+    "Lib/site-packages/visions/backends/python/types/object.py",
+    "Lib/site-packages/visions/backends/python/types/ordinal.py",
+    "Lib/site-packages/visions/backends/python/types/path.py",
+    "Lib/site-packages/visions/backends/python/types/string.py",
+    "Lib/site-packages/visions/backends/python/types/time.py",
+    "Lib/site-packages/visions/backends/python/types/time_delta.py",
+    "Lib/site-packages/visions/backends/python/types/url.py",
+    "Lib/site-packages/visions/backends/python/types/uuid.py",
+    "Lib/site-packages/visions/backends/shared/__init__.py",
+    "Lib/site-packages/visions/backends/shared/nan_handling.py",
+    "Lib/site-packages/visions/backends/shared/parallelization_engines.py",
+    "Lib/site-packages/visions/backends/shared/utilities.py",
+    "Lib/site-packages/visions/backends/spark/__init__.py",
+    "Lib/site-packages/visions/backends/spark/traversal.py",
+    "Lib/site-packages/visions/backends/spark/types/__init__.py",
+    "Lib/site-packages/visions/backends/spark/types/boolean.py",
+    "Lib/site-packages/visions/backends/spark/types/categorical.py",
+    "Lib/site-packages/visions/backends/spark/types/date.py",
+    "Lib/site-packages/visions/backends/spark/types/datetime.py",
+    "Lib/site-packages/visions/backends/spark/types/float.py",
+    "Lib/site-packages/visions/backends/spark/types/integer.py",
+    "Lib/site-packages/visions/backends/spark/types/numeric.py",
+    "Lib/site-packages/visions/backends/spark/types/object.py",
+    "Lib/site-packages/visions/backends/spark/types/string.py",
+    "Lib/site-packages/visions/contrib/README.md",
+    "Lib/site-packages/visions/contrib/__init__.py",
+    "Lib/site-packages/visions/contrib/relations/__init__.py",
+    "Lib/site-packages/visions/contrib/relations/categorical_to_ordinal.py",
+    "Lib/site-packages/visions/contrib/relations/integer_to_count.py",
+    "Lib/site-packages/visions/contrib/relations/integer_to_datetime.py",
+    "Lib/site-packages/visions/contrib/relations/integer_to_ordinal.py",
+    "Lib/site-packages/visions/contrib/relations/relations_utils.py",
+    "Lib/site-packages/visions/contrib/relations/string_to_categorical.py",
+    "Lib/site-packages/visions/contrib/relations/string_to_datetime.py",
+    "Lib/site-packages/visions/contrib/relations/string_to_ordinal.py",
+    "Lib/site-packages/visions/contrib/types/__init__.py",
+    "Lib/site-packages/visions/contrib/typesets/__init__.py",
+    "Lib/site-packages/visions/declarative.py",
+    "Lib/site-packages/visions/dtypes/__init__.py",
+    "Lib/site-packages/visions/dtypes/boolean.py",
+    "Lib/site-packages/visions/functional.py",
+    "Lib/site-packages/visions/py.typed",
+    "Lib/site-packages/visions/relations/__init__.py",
+    "Lib/site-packages/visions/relations/relations.py",
+    "Lib/site-packages/visions/test/__init__.py",
+    "Lib/site-packages/visions/test/data/__init__.py",
+    "Lib/site-packages/visions/test/data/file.html",
+    "Lib/site-packages/visions/test/data/img.jpeg",
+    "Lib/site-packages/visions/test/data/img.jpg",
+    "Lib/site-packages/visions/test/data/img.png",
+    "Lib/site-packages/visions/test/series.py",
+    "Lib/site-packages/visions/test/series_geometry.py",
+    "Lib/site-packages/visions/test/series_sparse.py",
+    "Lib/site-packages/visions/test/utils.py",
+    "Lib/site-packages/visions/types/__init__.py",
+    "Lib/site-packages/visions/types/boolean.py",
+    "Lib/site-packages/visions/types/categorical.py",
+    "Lib/site-packages/visions/types/complex.py",
+    "Lib/site-packages/visions/types/count.py",
+    "Lib/site-packages/visions/types/date.py",
+    "Lib/site-packages/visions/types/date_time.py",
+    "Lib/site-packages/visions/types/email_address.py",
+    "Lib/site-packages/visions/types/file.py",
+    "Lib/site-packages/visions/types/float.py",
+    "Lib/site-packages/visions/types/generic.py",
+    "Lib/site-packages/visions/types/geometry.py",
+    "Lib/site-packages/visions/types/image.py",
+    "Lib/site-packages/visions/types/integer.py",
+    "Lib/site-packages/visions/types/ip_address.py",
+    "Lib/site-packages/visions/types/numeric.py",
+    "Lib/site-packages/visions/types/object.py",
+    "Lib/site-packages/visions/types/ordinal.py",
+    "Lib/site-packages/visions/types/path.py",
+    "Lib/site-packages/visions/types/sparse.py",
+    "Lib/site-packages/visions/types/string.py",
+    "Lib/site-packages/visions/types/time.py",
+    "Lib/site-packages/visions/types/time_delta.py",
+    "Lib/site-packages/visions/types/type.py",
+    "Lib/site-packages/visions/types/url.py",
+    "Lib/site-packages/visions/types/uuid.py",
+    "Lib/site-packages/visions/typesets/__init__.py",
+    "Lib/site-packages/visions/typesets/complete_set.py",
+    "Lib/site-packages/visions/typesets/geometry_set.py",
+    "Lib/site-packages/visions/typesets/standard_set.py",
+    "Lib/site-packages/visions/typesets/typeset.py",
+    "Lib/site-packages/visions/utils/__init__.py",
+    "Lib/site-packages/visions/utils/cache.py",
+    "Lib/site-packages/visions/utils/graph.py",
+    "Lib/site-packages/visions/utils/images/__init__.py",
+    "Lib/site-packages/visions/utils/images/image_utils.py",
+    "Lib/site-packages/visions/utils/monkeypatches/__init__.py",
+    "Lib/site-packages/visions/utils/monkeypatches/imghdr_patch.py",
+    "Lib/site-packages/visions/utils/monkeypatches/pathlib_patch.py",
+    "Lib/site-packages/visions/utils/profiling.py",
+    "Lib/site-packages/visions/utils/warning_handling.py",
+    "Lib/site-packages/visions/visualisation/__init__.py",
+    "Lib/site-packages/visions/visualisation/circular_packing.html",
+    "Lib/site-packages/visions/visualisation/plot_circular_packing.py",
+    "Lib/site-packages/visions/visualisation/plot_typesets.py",
+    "Lib/site-packages/visions/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/__pycache__/array_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/__pycache__/sequences.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/__pycache__/test_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/complex.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/date_time.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/float.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/integer.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/object.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/string.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/numpy/types/__pycache__/time_delta.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/__pycache__/sequences.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/__pycache__/series_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/__pycache__/test_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/__pycache__/traversal.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/categorical.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/complex.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/count.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/date.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/date_time.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/email_address.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/file.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/float.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/geometry.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/integer.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/ip_address.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/numeric.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/object.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/path.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/sparse.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/string.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/time.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/time_delta.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/url.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/pandas/types/__pycache__/uuid.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/__pycache__/sequences.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/__pycache__/series_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/categorical.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/complex.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/count.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/date.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/date_time.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/email_address.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/file.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/float.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/geometry.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/integer.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/ip_address.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/numeric.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/object.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/path.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/string.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/time.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/time_delta.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/url.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/python/types/__pycache__/uuid.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/shared/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/shared/__pycache__/nan_handling.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/shared/__pycache__/parallelization_engines.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/shared/__pycache__/utilities.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/__pycache__/traversal.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/categorical.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/date.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/datetime.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/float.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/integer.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/numeric.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/object.cpython-310.pyc",
+    "Lib/site-packages/visions/backends/spark/types/__pycache__/string.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/categorical_to_ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_count.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_datetime.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/relations_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_categorical.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_datetime.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/contrib/typesets/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/__pycache__/declarative.cpython-310.pyc",
+    "Lib/site-packages/visions/dtypes/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/dtypes/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/__pycache__/functional.cpython-310.pyc",
+    "Lib/site-packages/visions/relations/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/relations/__pycache__/relations.cpython-310.pyc",
+    "Lib/site-packages/visions/test/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/test/data/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/test/__pycache__/series.cpython-310.pyc",
+    "Lib/site-packages/visions/test/__pycache__/series_geometry.cpython-310.pyc",
+    "Lib/site-packages/visions/test/__pycache__/series_sparse.cpython-310.pyc",
+    "Lib/site-packages/visions/test/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/boolean.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/categorical.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/complex.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/count.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/date.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/date_time.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/email_address.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/file.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/float.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/generic.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/geometry.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/integer.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/ip_address.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/numeric.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/object.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/ordinal.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/path.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/sparse.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/string.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/time.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/time_delta.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/type.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/url.cpython-310.pyc",
+    "Lib/site-packages/visions/types/__pycache__/uuid.cpython-310.pyc",
+    "Lib/site-packages/visions/typesets/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/typesets/__pycache__/complete_set.cpython-310.pyc",
+    "Lib/site-packages/visions/typesets/__pycache__/geometry_set.cpython-310.pyc",
+    "Lib/site-packages/visions/typesets/__pycache__/standard_set.cpython-310.pyc",
+    "Lib/site-packages/visions/typesets/__pycache__/typeset.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/__pycache__/cache.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/__pycache__/graph.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/images/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/images/__pycache__/image_utils.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/monkeypatches/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/monkeypatches/__pycache__/imghdr_patch.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/monkeypatches/__pycache__/pathlib_patch.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/__pycache__/profiling.cpython-310.pyc",
+    "Lib/site-packages/visions/utils/__pycache__/warning_handling.cpython-310.pyc",
+    "Lib/site-packages/visions/visualisation/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/visions/visualisation/__pycache__/plot_circular_packing.cpython-310.pyc",
+    "Lib/site-packages/visions/visualisation/__pycache__/plot_typesets.cpython-310.pyc"
+  ],
+  "fn": "visions-0.7.6-pyhd8ed1ab_1.conda",
+  "license": "BSD-4-Clause",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\visions-0.7.6-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "01eb2ac4232e3a41151194d7894ec5fb",
+  "name": "visions",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\visions-0.7.6-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cda2b2202aa48b39351d89d32a88cef498c3ed0d47af83b8b2d4cc91018c8dc2",
+        "sha256_in_prefix": "cda2b2202aa48b39351d89d32a88cef498c3ed0d47af83b8b2d4cc91018c8dc2",
+        "size_in_bytes": 1680
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d65bfcc4400754846c75064c11cef59d9c0459af31ae5e00c3ddbdfc85e3b690",
+        "sha256_in_prefix": "d65bfcc4400754846c75064c11cef59d9c0459af31ae5e00c3ddbdfc85e3b690",
+        "size_in_bytes": 11509
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c923fc2a11ed598685adc1a486a912796a713f74c45d9a1cd6c3794cde5c2f58",
+        "sha256_in_prefix": "c923fc2a11ed598685adc1a486a912796a713f74c45d9a1cd6c3794cde5c2f58",
+        "size_in_bytes": 25200
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9df725e290563a9ef5ecb072201c5a25b31e1dcabf5eb6b0a3c4bcfcecd3b16d",
+        "sha256_in_prefix": "9df725e290563a9ef5ecb072201c5a25b31e1dcabf5eb6b0a3c4bcfcecd3b16d",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/visions-0.7.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ae614e45947ed92240f6e3fdd7fc25bb5934ca6e3df5ea341bdc6ced820a0ebf",
+        "sha256_in_prefix": "ae614e45947ed92240f6e3fdd7fc25bb5934ca6e3df5ea341bdc6ced820a0ebf",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/visions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02171641d0688a242a459671096c3f59e98dd4dca995c180b23cb0f5ea3ca9e0",
+        "sha256_in_prefix": "02171641d0688a242a459671096c3f59e98dd4dca995c180b23cb0f5ea3ca9e0",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "site-packages/visions/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab7a9ed26917fad06060fb929e1140fae4644e7450bc474e744180e26f718581",
+        "sha256_in_prefix": "ab7a9ed26917fad06060fb929e1140fae4644e7450bc474e744180e26f718581",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96bb0b309f9b5d21e64d100760493169d75a5e880eaf8bc79ff2d07cb150537b",
+        "sha256_in_prefix": "96bb0b309f9b5d21e64d100760493169d75a5e880eaf8bc79ff2d07cb150537b",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/array_utils.py",
+        "path_type": "hardlink",
+        "sha256": "97172f4df31b73d8f74d34129dd85dcb83dd5e2ba990b3b0e71d8717d49c0095",
+        "sha256_in_prefix": "97172f4df31b73d8f74d34129dd85dcb83dd5e2ba990b3b0e71d8717d49c0095",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/sequences.py",
+        "path_type": "hardlink",
+        "sha256": "5284284bb12fca384c374f27d38a442870e9b7a407974983067d6fd71e5ce712",
+        "sha256_in_prefix": "5284284bb12fca384c374f27d38a442870e9b7a407974983067d6fd71e5ce712",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f23070db4dcdb1c774919fea88b9bbdace3a2a48d31a37ef366609d2e5219f12",
+        "sha256_in_prefix": "f23070db4dcdb1c774919fea88b9bbdace3a2a48d31a37ef366609d2e5219f12",
+        "size_in_bytes": 5409
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e033ba16653f3a65c259f92a6fa97e288d32545a0a6a82c6ea6351ce00f1cda0",
+        "sha256_in_prefix": "e033ba16653f3a65c259f92a6fa97e288d32545a0a6a82c6ea6351ce00f1cda0",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "2dbbaaec2335702834010c861d7ec971f392e62d2edcf87a6f90ab375ddf48b7",
+        "sha256_in_prefix": "2dbbaaec2335702834010c861d7ec971f392e62d2edcf87a6f90ab375ddf48b7",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/complex.py",
+        "path_type": "hardlink",
+        "sha256": "8a59f92db3bcf8a7b75a5c145755e4de6b41f58df2ea6b3933585bc6e321be53",
+        "sha256_in_prefix": "8a59f92db3bcf8a7b75a5c145755e4de6b41f58df2ea6b3933585bc6e321be53",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/date_time.py",
+        "path_type": "hardlink",
+        "sha256": "b73ea59873ddef91b2c8a9826a761f151fb7f11460dde15a7189c3968730d714",
+        "sha256_in_prefix": "b73ea59873ddef91b2c8a9826a761f151fb7f11460dde15a7189c3968730d714",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "6bd27b48409d6948015c9919015354838ff189a55168952f4b9b79a6e1142cdc",
+        "sha256_in_prefix": "6bd27b48409d6948015c9919015354838ff189a55168952f4b9b79a6e1142cdc",
+        "size_in_bytes": 1539
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "2df4ab019d764d5564a13e61ccea927600fc8748243b26890a398919a0052a5e",
+        "sha256_in_prefix": "2df4ab019d764d5564a13e61ccea927600fc8748243b26890a398919a0052a5e",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "acf89594756bc03cc8d0f79f6f6f6e1c3f8db3480d7abc8af9b0ece414b2ddd5",
+        "sha256_in_prefix": "acf89594756bc03cc8d0f79f6f6f6e1c3f8db3480d7abc8af9b0ece414b2ddd5",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "fa4487ea488b9a8b691c2a78b566718c5b62be415ea67285d8f758711379083e",
+        "sha256_in_prefix": "fa4487ea488b9a8b691c2a78b566718c5b62be415ea67285d8f758711379083e",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/visions/backends/numpy/types/time_delta.py",
+        "path_type": "hardlink",
+        "sha256": "0648176715f872ba4ec13ce37f0492619b4368784c78ea3b0689f779c85a44ce",
+        "sha256_in_prefix": "0648176715f872ba4ec13ce37f0492619b4368784c78ea3b0689f779c85a44ce",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e78feba1a823e2790a8b951f42d800ffade05a4d4af7b848efeec3b5e54d3efc",
+        "sha256_in_prefix": "e78feba1a823e2790a8b951f42d800ffade05a4d4af7b848efeec3b5e54d3efc",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/sequences.py",
+        "path_type": "hardlink",
+        "sha256": "fb225b16a29f24fbd3bdb55117a9784e761b02444bc0e7c2ff4bb18d5d6cf050",
+        "sha256_in_prefix": "fb225b16a29f24fbd3bdb55117a9784e761b02444bc0e7c2ff4bb18d5d6cf050",
+        "size_in_bytes": 4680
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/series_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ffce8a0357b6f42233aaab092c1468ecff2b0b482694c125151395ee90eda0a0",
+        "sha256_in_prefix": "ffce8a0357b6f42233aaab092c1468ecff2b0b482694c125151395ee90eda0a0",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "80733544eebaaaedb2afcbe91916f97c4222f0b6ac68e5612c486cc81a9290c8",
+        "sha256_in_prefix": "80733544eebaaaedb2afcbe91916f97c4222f0b6ac68e5612c486cc81a9290c8",
+        "size_in_bytes": 5511
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/traversal.py",
+        "path_type": "hardlink",
+        "sha256": "abafa625b0b56b0e0adf0def166a62127d0fa2015397aee14c8ea037e85f2a63",
+        "sha256_in_prefix": "abafa625b0b56b0e0adf0def166a62127d0fa2015397aee14c8ea037e85f2a63",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3350b55bfe17123e74ef7d5dada1918276bf0b893677791d7113ee10560ae76c",
+        "sha256_in_prefix": "3350b55bfe17123e74ef7d5dada1918276bf0b893677791d7113ee10560ae76c",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "5f0741ab151cb7b8c029b2505c4e58124204fe24657a9fd91d1f15d13a697e98",
+        "sha256_in_prefix": "5f0741ab151cb7b8c029b2505c4e58124204fe24657a9fd91d1f15d13a697e98",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "94c1e288b33649236d8a99c0e483734c7892cdcba219d4e798f4b1f5147db518",
+        "sha256_in_prefix": "94c1e288b33649236d8a99c0e483734c7892cdcba219d4e798f4b1f5147db518",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/complex.py",
+        "path_type": "hardlink",
+        "sha256": "a298f430e77f7241be90376c419337aa64f571a428213ae655310d37fcc82dc9",
+        "sha256_in_prefix": "a298f430e77f7241be90376c419337aa64f571a428213ae655310d37fcc82dc9",
+        "size_in_bytes": 1613
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/count.py",
+        "path_type": "hardlink",
+        "sha256": "f821881cd0f117e73b180c114857a4d3d72439b77923ac6b0f57586264943214",
+        "sha256_in_prefix": "f821881cd0f117e73b180c114857a4d3d72439b77923ac6b0f57586264943214",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/date.py",
+        "path_type": "hardlink",
+        "sha256": "992371c1521c760a3fc21b883883e3b2ed3cbee9302ec5de010ae5f3f130e9e9",
+        "sha256_in_prefix": "992371c1521c760a3fc21b883883e3b2ed3cbee9302ec5de010ae5f3f130e9e9",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/date_time.py",
+        "path_type": "hardlink",
+        "sha256": "833bf36d5a49174962b62bf365d0c3d9a3bf9df34d11df1c594a91ec858cf577",
+        "sha256_in_prefix": "833bf36d5a49174962b62bf365d0c3d9a3bf9df34d11df1c594a91ec858cf577",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/email_address.py",
+        "path_type": "hardlink",
+        "sha256": "a6eb76b83814990991ca46ac914fefa2f6f2817c9e27fc4f2d1c8110912c619e",
+        "sha256_in_prefix": "a6eb76b83814990991ca46ac914fefa2f6f2817c9e27fc4f2d1c8110912c619e",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/file.py",
+        "path_type": "hardlink",
+        "sha256": "44c8dff55d1ce39e3f448b9977d4318d3cfe6371f9b8fdcd70d642fdc6d3d4af",
+        "sha256_in_prefix": "44c8dff55d1ce39e3f448b9977d4318d3cfe6371f9b8fdcd70d642fdc6d3d4af",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "96f892eb8594512176bfc627463cd86d0d023f2d7cb685b8d61207490d78a628",
+        "sha256_in_prefix": "96f892eb8594512176bfc627463cd86d0d023f2d7cb685b8d61207490d78a628",
+        "size_in_bytes": 2052
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "1421c1a32b73a3ff783fe7b73357283c0fde34eeba6c4d5b8bf3b035ae367b7b",
+        "sha256_in_prefix": "1421c1a32b73a3ff783fe7b73357283c0fde34eeba6c4d5b8bf3b035ae367b7b",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "93fb4f3ef4753ceb75dcdc70f0ea609a1b99fad2380b2653c846e703449e3c0d",
+        "sha256_in_prefix": "93fb4f3ef4753ceb75dcdc70f0ea609a1b99fad2380b2653c846e703449e3c0d",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "1fc9d46b2a86113aaed7580a6faab212362721324ec068b724bd1d5fec30b4d2",
+        "sha256_in_prefix": "1fc9d46b2a86113aaed7580a6faab212362721324ec068b724bd1d5fec30b4d2",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/ip_address.py",
+        "path_type": "hardlink",
+        "sha256": "f78eebeb7836a33dde6e49fd308c544131c078df23451e470be1471526d4dbbb",
+        "sha256_in_prefix": "f78eebeb7836a33dde6e49fd308c544131c078df23451e470be1471526d4dbbb",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "b56d2d928c3ff06a92924abeca7ec61de821503c68cc368aad0009a95b579ec0",
+        "sha256_in_prefix": "b56d2d928c3ff06a92924abeca7ec61de821503c68cc368aad0009a95b579ec0",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "37dd39429ded6dcd0c2114856810dcf69558cc5506aea2ba890058c8a94695fc",
+        "sha256_in_prefix": "37dd39429ded6dcd0c2114856810dcf69558cc5506aea2ba890058c8a94695fc",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "c634184bee54dc2169d0cecaafc4832767d3874c5799eddc04d80fe357f37428",
+        "sha256_in_prefix": "c634184bee54dc2169d0cecaafc4832767d3874c5799eddc04d80fe357f37428",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/path.py",
+        "path_type": "hardlink",
+        "sha256": "19f137a73942d2c1a357a62853c94c0159b335350f11eabd83dd46c722e4f5b9",
+        "sha256_in_prefix": "19f137a73942d2c1a357a62853c94c0159b335350f11eabd83dd46c722e4f5b9",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/sparse.py",
+        "path_type": "hardlink",
+        "sha256": "805bd62f0ae893bb590aeaf0c33c1bece9af5259482ba17256ff9f4ee304890d",
+        "sha256_in_prefix": "805bd62f0ae893bb590aeaf0c33c1bece9af5259482ba17256ff9f4ee304890d",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "29e6b303705bbd15f326ba7c2a5c7a0e57b9bc5b3aa643904e452042ca5dc73b",
+        "sha256_in_prefix": "29e6b303705bbd15f326ba7c2a5c7a0e57b9bc5b3aa643904e452042ca5dc73b",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/time.py",
+        "path_type": "hardlink",
+        "sha256": "3a6e7f5b7217d75f49d8d7be4245e986736bb38627fe54b2a3e10ad2426e4d02",
+        "sha256_in_prefix": "3a6e7f5b7217d75f49d8d7be4245e986736bb38627fe54b2a3e10ad2426e4d02",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/time_delta.py",
+        "path_type": "hardlink",
+        "sha256": "4676b4699ce541d7981a01e7476926db1a5c852184b5e2b22761baa43951997c",
+        "sha256_in_prefix": "4676b4699ce541d7981a01e7476926db1a5c852184b5e2b22761baa43951997c",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/url.py",
+        "path_type": "hardlink",
+        "sha256": "93eead05e4b531d8295a739c1a4566dba2f1cba5b0e91a98cded2cb1b1c6234b",
+        "sha256_in_prefix": "93eead05e4b531d8295a739c1a4566dba2f1cba5b0e91a98cded2cb1b1c6234b",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "site-packages/visions/backends/pandas/types/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "cef5e2f26d120a7fee82464c87f19bf036967eb58228b0f41371b404804bb4a3",
+        "sha256_in_prefix": "cef5e2f26d120a7fee82464c87f19bf036967eb58228b0f41371b404804bb4a3",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "site-packages/visions/backends/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10b4e3825cc3f6da64b9a650d959eba002e81a8451559b004682bd154c7185e7",
+        "sha256_in_prefix": "10b4e3825cc3f6da64b9a650d959eba002e81a8451559b004682bd154c7185e7",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/visions/backends/python/sequences.py",
+        "path_type": "hardlink",
+        "sha256": "3f5d271b7b7ac52165eb9f965279fb5bb921f07ea0e1fbd2b62e32ba17fec799",
+        "sha256_in_prefix": "3f5d271b7b7ac52165eb9f965279fb5bb921f07ea0e1fbd2b62e32ba17fec799",
+        "size_in_bytes": 6995
+      },
+      {
+        "_path": "site-packages/visions/backends/python/series_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a6c011d00db53cc9d7f5e6df96600a86e08aff89689a9a1cc96d694972c525f8",
+        "sha256_in_prefix": "a6c011d00db53cc9d7f5e6df96600a86e08aff89689a9a1cc96d694972c525f8",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8086d52dc22c8986779cee9976f7c5bb6cd0be4c998a4654d6e7f3ebcd20399d",
+        "sha256_in_prefix": "8086d52dc22c8986779cee9976f7c5bb6cd0be4c998a4654d6e7f3ebcd20399d",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "1ffe7e8775f09784da3e33e2d8f683d2652d4fa1111e1a00d84be702f242c64b",
+        "sha256_in_prefix": "1ffe7e8775f09784da3e33e2d8f683d2652d4fa1111e1a00d84be702f242c64b",
+        "size_in_bytes": 1698
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "bd509013319f4dee7a9f0f29ca6bb3565376a2fccec6ae90bd28b02318c660be",
+        "sha256_in_prefix": "bd509013319f4dee7a9f0f29ca6bb3565376a2fccec6ae90bd28b02318c660be",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/complex.py",
+        "path_type": "hardlink",
+        "sha256": "0418cd2ec85a484ac78327ac2bb849459c0b33fb0b15ed5d1ed6fe6823650985",
+        "sha256_in_prefix": "0418cd2ec85a484ac78327ac2bb849459c0b33fb0b15ed5d1ed6fe6823650985",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/count.py",
+        "path_type": "hardlink",
+        "sha256": "bd75febda399ed7005efcb041bc9b7e79aeebfe8253623781442e8027d150df2",
+        "sha256_in_prefix": "bd75febda399ed7005efcb041bc9b7e79aeebfe8253623781442e8027d150df2",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/date.py",
+        "path_type": "hardlink",
+        "sha256": "97658717bda79f7e444e736aef43623504dcfa4afb7358743794ae6ed49a2631",
+        "sha256_in_prefix": "97658717bda79f7e444e736aef43623504dcfa4afb7358743794ae6ed49a2631",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/date_time.py",
+        "path_type": "hardlink",
+        "sha256": "3d5886350f11bd16e8faf74b123da8e25b2c039743b24086ae53c68016ceee51",
+        "sha256_in_prefix": "3d5886350f11bd16e8faf74b123da8e25b2c039743b24086ae53c68016ceee51",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/email_address.py",
+        "path_type": "hardlink",
+        "sha256": "6cb0a813dec1c3551466de672a75d5ed70d2c9296fa021836bc8725d087cc61f",
+        "sha256_in_prefix": "6cb0a813dec1c3551466de672a75d5ed70d2c9296fa021836bc8725d087cc61f",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/file.py",
+        "path_type": "hardlink",
+        "sha256": "707fcad5338b32bdcd8937703bc3b5cf461ead9ad4ee5d3563688084a714aac0",
+        "sha256_in_prefix": "707fcad5338b32bdcd8937703bc3b5cf461ead9ad4ee5d3563688084a714aac0",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "caa400918da87030c1b90deab201bec896fe0ca42aa60a8c533f66a0a0b7abbe",
+        "sha256_in_prefix": "caa400918da87030c1b90deab201bec896fe0ca42aa60a8c533f66a0a0b7abbe",
+        "size_in_bytes": 1351
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "24b6ed21b7fd19ebdc1ee0a040661652ba280ee6982cd12d27347153fd21a073",
+        "sha256_in_prefix": "24b6ed21b7fd19ebdc1ee0a040661652ba280ee6982cd12d27347153fd21a073",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "e2b7a5b5214db2ad64507c80376dd8c9beaf2b322b2fcd43b02d3611d0f95950",
+        "sha256_in_prefix": "e2b7a5b5214db2ad64507c80376dd8c9beaf2b322b2fcd43b02d3611d0f95950",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "45d2c4a64602ca7d1a03b0494d17952564c4ad70963155746a3d2002c7f1fa02",
+        "sha256_in_prefix": "45d2c4a64602ca7d1a03b0494d17952564c4ad70963155746a3d2002c7f1fa02",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/ip_address.py",
+        "path_type": "hardlink",
+        "sha256": "7ef7be93d5ecbc0e0e85936748ce3bd099722536863fa61141b33c28dae51c28",
+        "sha256_in_prefix": "7ef7be93d5ecbc0e0e85936748ce3bd099722536863fa61141b33c28dae51c28",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "615c9ef4df6995ec2d5785f813b44f3dfe2bb06abb04f1e17069719b24ca13c2",
+        "sha256_in_prefix": "615c9ef4df6995ec2d5785f813b44f3dfe2bb06abb04f1e17069719b24ca13c2",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "c0a8330f5e79d7ba0b6d2fac1adcd11eecf775566c7c08419ce401c62b2a64c8",
+        "sha256_in_prefix": "c0a8330f5e79d7ba0b6d2fac1adcd11eecf775566c7c08419ce401c62b2a64c8",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "1df4adaaece8f6668adb769e9997a67b2ce4e6a4a7a851835c07beed886e45ec",
+        "sha256_in_prefix": "1df4adaaece8f6668adb769e9997a67b2ce4e6a4a7a851835c07beed886e45ec",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/path.py",
+        "path_type": "hardlink",
+        "sha256": "b0bf557bbeb6ffb08f906109a7a3e2df631b1362a67a5a07bd3416bd64c9ba21",
+        "sha256_in_prefix": "b0bf557bbeb6ffb08f906109a7a3e2df631b1362a67a5a07bd3416bd64c9ba21",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "1cc7b609ad520d6697f1c4262e4dc7b74be87457046bfa1d4cbd47b9cb2e493d",
+        "sha256_in_prefix": "1cc7b609ad520d6697f1c4262e4dc7b74be87457046bfa1d4cbd47b9cb2e493d",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/time.py",
+        "path_type": "hardlink",
+        "sha256": "bad83e9b742506d89bbf039d8bda1f24500623e7952bb99b97a48fa37212219c",
+        "sha256_in_prefix": "bad83e9b742506d89bbf039d8bda1f24500623e7952bb99b97a48fa37212219c",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/time_delta.py",
+        "path_type": "hardlink",
+        "sha256": "212df438f08deb6091635849993057a9149b3300e976babf19881c6c382d3c2f",
+        "sha256_in_prefix": "212df438f08deb6091635849993057a9149b3300e976babf19881c6c382d3c2f",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/url.py",
+        "path_type": "hardlink",
+        "sha256": "03af5f6fa855e899e73181eb4c1b10757b5ea4426c8d86e776426c547e7db712",
+        "sha256_in_prefix": "03af5f6fa855e899e73181eb4c1b10757b5ea4426c8d86e776426c547e7db712",
+        "size_in_bytes": 726
+      },
+      {
+        "_path": "site-packages/visions/backends/python/types/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "9bf974667682dd8382258aa85d7e10d2b58389d198ffa74d4d34380db7297caa",
+        "sha256_in_prefix": "9bf974667682dd8382258aa85d7e10d2b58389d198ffa74d4d34380db7297caa",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "site-packages/visions/backends/shared/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a391075cf322d0a8cea0d45ab3b22c312f514aceab14b920151dc3dc978c6ff6",
+        "sha256_in_prefix": "a391075cf322d0a8cea0d45ab3b22c312f514aceab14b920151dc3dc978c6ff6",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/visions/backends/shared/nan_handling.py",
+        "path_type": "hardlink",
+        "sha256": "ad67a799e553da0032dc23300ca5f749f36323529dc91a4a68f59d1a4eda98b5",
+        "sha256_in_prefix": "ad67a799e553da0032dc23300ca5f749f36323529dc91a4a68f59d1a4eda98b5",
+        "size_in_bytes": 1935
+      },
+      {
+        "_path": "site-packages/visions/backends/shared/parallelization_engines.py",
+        "path_type": "hardlink",
+        "sha256": "2a8d2579b61391f0bac5124dc2763ba3a734b9792d7339801d6565e450cbc0ed",
+        "sha256_in_prefix": "2a8d2579b61391f0bac5124dc2763ba3a734b9792d7339801d6565e450cbc0ed",
+        "size_in_bytes": 2620
+      },
+      {
+        "_path": "site-packages/visions/backends/shared/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "85b8168f7bef1e72629c256957cb7c53133413210bdd44b90417c5e82034dfc7",
+        "sha256_in_prefix": "85b8168f7bef1e72629c256957cb7c53133413210bdd44b90417c5e82034dfc7",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5d8f019940c85d712be95c965b6e1e339f6ce9faf8841bcc7dcb3dc37d334613",
+        "sha256_in_prefix": "5d8f019940c85d712be95c965b6e1e339f6ce9faf8841bcc7dcb3dc37d334613",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/traversal.py",
+        "path_type": "hardlink",
+        "sha256": "f34417418e280c92d54528303266ff0cff494a2c21a813bd4f253cd9714be358",
+        "sha256_in_prefix": "f34417418e280c92d54528303266ff0cff494a2c21a813bd4f253cd9714be358",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8e3e2142d71bc1d29a8796e3355532518dc50243e0f0207777977b37535fb1f9",
+        "sha256_in_prefix": "8e3e2142d71bc1d29a8796e3355532518dc50243e0f0207777977b37535fb1f9",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "ef3853d339052026c376a9f42f1ad0249e338123511169d3039577c56c2b01a9",
+        "sha256_in_prefix": "ef3853d339052026c376a9f42f1ad0249e338123511169d3039577c56c2b01a9",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "202f3552919214f516700660f17acc771f62dd9417b4b3e60b44f42be99b98c3",
+        "sha256_in_prefix": "202f3552919214f516700660f17acc771f62dd9417b4b3e60b44f42be99b98c3",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/date.py",
+        "path_type": "hardlink",
+        "sha256": "483c2cd106744d06365e20f1c2bfea55ab110f8e1c368c92cf876ebe3074e6a7",
+        "sha256_in_prefix": "483c2cd106744d06365e20f1c2bfea55ab110f8e1c368c92cf876ebe3074e6a7",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/datetime.py",
+        "path_type": "hardlink",
+        "sha256": "cb7bf7493bfc495af7e2fca44aa47900404ebf3e78bc308ef8d64323f6ad42c3",
+        "sha256_in_prefix": "cb7bf7493bfc495af7e2fca44aa47900404ebf3e78bc308ef8d64323f6ad42c3",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "0eacd3d333c8f9931c67ba7c44362c69996a60ba9fe51572556d5880edd9aecb",
+        "sha256_in_prefix": "0eacd3d333c8f9931c67ba7c44362c69996a60ba9fe51572556d5880edd9aecb",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "dd8121526ec48b071471d146b41226473c9296c36f8b223d42b33366c101c260",
+        "sha256_in_prefix": "dd8121526ec48b071471d146b41226473c9296c36f8b223d42b33366c101c260",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "e356b7f23b1f2db13ef834e5c62f0ba9131ea2ff4934329485c38cdc303d32e4",
+        "sha256_in_prefix": "e356b7f23b1f2db13ef834e5c62f0ba9131ea2ff4934329485c38cdc303d32e4",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "4f1ff4718da455ef6121362d3575a34ad958bbcbac2e00af68361f65f0adf1ba",
+        "sha256_in_prefix": "4f1ff4718da455ef6121362d3575a34ad958bbcbac2e00af68361f65f0adf1ba",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "site-packages/visions/backends/spark/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "079c2428256384934d613a557c9a688a07d736363f5d59395eea80fb37319c7f",
+        "sha256_in_prefix": "079c2428256384934d613a557c9a688a07d736363f5d59395eea80fb37319c7f",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "site-packages/visions/contrib/README.md",
+        "path_type": "hardlink",
+        "sha256": "8bf768e756e3865f97101e59a66d11515f10b8ccfbab53f9c4b8ec32435c8e44",
+        "sha256_in_prefix": "8bf768e756e3865f97101e59a66d11515f10b8ccfbab53f9c4b8ec32435c8e44",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/visions/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/categorical_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "ae1809efb1fe96f9b8762d50a32d6cb8062f76f48b308fd1dedefb9009f389a1",
+        "sha256_in_prefix": "ae1809efb1fe96f9b8762d50a32d6cb8062f76f48b308fd1dedefb9009f389a1",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/integer_to_count.py",
+        "path_type": "hardlink",
+        "sha256": "d8582c3b400569186e9bcadc319967920c99234087684c609572f0a5b6207839",
+        "sha256_in_prefix": "d8582c3b400569186e9bcadc319967920c99234087684c609572f0a5b6207839",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/integer_to_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "805ad1986847eec3569b1cff51b0abe2057f86d584685c10842e75f0f1835914",
+        "sha256_in_prefix": "805ad1986847eec3569b1cff51b0abe2057f86d584685c10842e75f0f1835914",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/integer_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "c7416487ed513d02d35a923c65ce4b5a6809b48e05d32053b6700b2c55fc409d",
+        "sha256_in_prefix": "c7416487ed513d02d35a923c65ce4b5a6809b48e05d32053b6700b2c55fc409d",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/relations_utils.py",
+        "path_type": "hardlink",
+        "sha256": "05568ac03ff20f5605a00f47a8ac3124c11acaf59121e2d344ea12cc6cce1526",
+        "sha256_in_prefix": "05568ac03ff20f5605a00f47a8ac3124c11acaf59121e2d344ea12cc6cce1526",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/string_to_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "1d693570f1d5f2c85e17d5bcc670566d5e56514a7cbb47ef643dbdc49dd01b44",
+        "sha256_in_prefix": "1d693570f1d5f2c85e17d5bcc670566d5e56514a7cbb47ef643dbdc49dd01b44",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/string_to_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "927e57d787357720e934cad5d34e042384c80007fcda4b150fa5f748091a524d",
+        "sha256_in_prefix": "927e57d787357720e934cad5d34e042384c80007fcda4b150fa5f748091a524d",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "site-packages/visions/contrib/relations/string_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "8fbe5cf0a250dc0f448720b16be4e80be6027ae4b80a03b47bea13b89d4da61a",
+        "sha256_in_prefix": "8fbe5cf0a250dc0f448720b16be4e80be6027ae4b80a03b47bea13b89d4da61a",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/visions/contrib/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/contrib/typesets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/declarative.py",
+        "path_type": "hardlink",
+        "sha256": "c96319b7512e455d3511732586f77e2d1f8296558c6791607ed8a9c89b337fe2",
+        "sha256_in_prefix": "c96319b7512e455d3511732586f77e2d1f8296558c6791607ed8a9c89b337fe2",
+        "size_in_bytes": 1733
+      },
+      {
+        "_path": "site-packages/visions/dtypes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/dtypes/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "6b277a1097ea6c2299ba0727aecb53d6e775f96c8f7e81e934219d773a36f21f",
+        "sha256_in_prefix": "6b277a1097ea6c2299ba0727aecb53d6e775f96c8f7e81e934219d773a36f21f",
+        "size_in_bytes": 22362
+      },
+      {
+        "_path": "site-packages/visions/functional.py",
+        "path_type": "hardlink",
+        "sha256": "ab93e306da7d8a29246b436b95d887c9f8303f150227a1c834b19f42b0743ace",
+        "sha256_in_prefix": "ab93e306da7d8a29246b436b95d887c9f8303f150227a1c834b19f42b0743ace",
+        "size_in_bytes": 4461
+      },
+      {
+        "_path": "site-packages/visions/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/relations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5d36a7a3ff2db6b0724e319a8b877c549e3b259282c2d4aeb1ebdc56c00c91dd",
+        "sha256_in_prefix": "5d36a7a3ff2db6b0724e319a8b877c549e3b259282c2d4aeb1ebdc56c00c91dd",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/visions/relations/relations.py",
+        "path_type": "hardlink",
+        "sha256": "fd7c1a8dc1042e03a9a15c1fc6801b30410fc1eb5835408d8357c23d085dd088",
+        "sha256_in_prefix": "fd7c1a8dc1042e03a9a15c1fc6801b30410fc1eb5835408d8357c23d085dd088",
+        "size_in_bytes": 2846
+      },
+      {
+        "_path": "site-packages/visions/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/test/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5a6f8447731524514d360d0b855c30024d3ab3eca1638ec840617a51e3b648b",
+        "sha256_in_prefix": "f5a6f8447731524514d360d0b855c30024d3ab3eca1638ec840617a51e3b648b",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/visions/test/data/file.html",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/test/data/img.jpeg",
+        "path_type": "hardlink",
+        "sha256": "79ed71599d767e83fda34137db8690a2f5579e548ac2665919b48d188b3f6450",
+        "sha256_in_prefix": "79ed71599d767e83fda34137db8690a2f5579e548ac2665919b48d188b3f6450",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/visions/test/data/img.jpg",
+        "path_type": "hardlink",
+        "sha256": "79ed71599d767e83fda34137db8690a2f5579e548ac2665919b48d188b3f6450",
+        "sha256_in_prefix": "79ed71599d767e83fda34137db8690a2f5579e548ac2665919b48d188b3f6450",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/visions/test/data/img.png",
+        "path_type": "hardlink",
+        "sha256": "18c327afa903633f86c3efcf12b77f098077eacaa8be101bb007846fd74f8b93",
+        "sha256_in_prefix": "18c327afa903633f86c3efcf12b77f098077eacaa8be101bb007846fd74f8b93",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/visions/test/series.py",
+        "path_type": "hardlink",
+        "sha256": "982fd9ab8a5d7c7b91d5467342e0be9075d87b460079e380be058c16aa15f942",
+        "sha256_in_prefix": "982fd9ab8a5d7c7b91d5467342e0be9075d87b460079e380be058c16aa15f942",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/visions/test/series_geometry.py",
+        "path_type": "hardlink",
+        "sha256": "a65f163757d94863cdc244d3d039016d5a3cca5d6c5ed0aa502d24bd23b0e478",
+        "sha256_in_prefix": "a65f163757d94863cdc244d3d039016d5a3cca5d6c5ed0aa502d24bd23b0e478",
+        "size_in_bytes": 758
+      },
+      {
+        "_path": "site-packages/visions/test/series_sparse.py",
+        "path_type": "hardlink",
+        "sha256": "467557f2a8fb6bcf50694981259763dfc13a02d9d76c47eee0cd30c67959d66e",
+        "sha256_in_prefix": "467557f2a8fb6bcf50694981259763dfc13a02d9d76c47eee0cd30c67959d66e",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "site-packages/visions/test/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1ef3f2478eb393bd0899d19915181b8d91f2114a89efbdc7520aa3c40cc4f2e7",
+        "sha256_in_prefix": "1ef3f2478eb393bd0899d19915181b8d91f2114a89efbdc7520aa3c40cc4f2e7",
+        "size_in_bytes": 8039
+      },
+      {
+        "_path": "site-packages/visions/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85f697335b01a52483917cb61dcfeabf14182b2dca224b5e55f14419dfd801be",
+        "sha256_in_prefix": "85f697335b01a52483917cb61dcfeabf14182b2dca224b5e55f14419dfd801be",
+        "size_in_bytes": 1418
+      },
+      {
+        "_path": "site-packages/visions/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "a8729bf060f5a4947c4f93dec371829def27f88ac530d17c9415239b98e4e98b",
+        "sha256_in_prefix": "a8729bf060f5a4947c4f93dec371829def27f88ac530d17c9415239b98e4e98b",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "site-packages/visions/types/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "30d9d90978ce27de127faee3597a05cad12ad3d7ff2ebd433cebf7e1c6b0ab06",
+        "sha256_in_prefix": "30d9d90978ce27de127faee3597a05cad12ad3d7ff2ebd433cebf7e1c6b0ab06",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "site-packages/visions/types/complex.py",
+        "path_type": "hardlink",
+        "sha256": "4c4b8ca1ca5eb50f36447b2487795bf2b6ba4bc821b6d538cce6e3a3f3ec100b",
+        "sha256_in_prefix": "4c4b8ca1ca5eb50f36447b2487795bf2b6ba4bc821b6d538cce6e3a3f3ec100b",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "site-packages/visions/types/count.py",
+        "path_type": "hardlink",
+        "sha256": "d3467fd77f7a977472071409a759c17cae56ce756691c1078303ddae16968703",
+        "sha256_in_prefix": "d3467fd77f7a977472071409a759c17cae56ce756691c1078303ddae16968703",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/visions/types/date.py",
+        "path_type": "hardlink",
+        "sha256": "810109d7c02c220dd445076be74af579973d26bba1202db35352b4f54d3d2412",
+        "sha256_in_prefix": "810109d7c02c220dd445076be74af579973d26bba1202db35352b4f54d3d2412",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "site-packages/visions/types/date_time.py",
+        "path_type": "hardlink",
+        "sha256": "574dcb49a8da7a01ef07bdb424ffd6956a4eba4b4101afea31994936d9b59723",
+        "sha256_in_prefix": "574dcb49a8da7a01ef07bdb424ffd6956a4eba4b4101afea31994936d9b59723",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "site-packages/visions/types/email_address.py",
+        "path_type": "hardlink",
+        "sha256": "9147e7d9bf79fe645b88cd2cc356d714c9038b00dd8e0d336e15ae4953b84559",
+        "sha256_in_prefix": "9147e7d9bf79fe645b88cd2cc356d714c9038b00dd8e0d336e15ae4953b84559",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "site-packages/visions/types/file.py",
+        "path_type": "hardlink",
+        "sha256": "cfbd7808989d81627165d875f54f3efe57b2b300a65b303354b52f4117aa6e5e",
+        "sha256_in_prefix": "cfbd7808989d81627165d875f54f3efe57b2b300a65b303354b52f4117aa6e5e",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "site-packages/visions/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "74747be3da1fe68c765daedd2cafe288226bb9089311752fe5d3627986537dd9",
+        "sha256_in_prefix": "74747be3da1fe68c765daedd2cafe288226bb9089311752fe5d3627986537dd9",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/visions/types/generic.py",
+        "path_type": "hardlink",
+        "sha256": "00f11f6248a6ffa3d1ff987d9622d0d6b20c88200082f452a2d70848e7795f6f",
+        "sha256_in_prefix": "00f11f6248a6ffa3d1ff987d9622d0d6b20c88200082f452a2d70848e7795f6f",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/visions/types/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "8a2af394361972b9da825118ef9ee47054a185ec4e74af04da4731e298aa54c4",
+        "sha256_in_prefix": "8a2af394361972b9da825118ef9ee47054a185ec4e74af04da4731e298aa54c4",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "site-packages/visions/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "56372b22e69e18e7d165056f522140b28d75c229765c56f887e79b93f93819d4",
+        "sha256_in_prefix": "56372b22e69e18e7d165056f522140b28d75c229765c56f887e79b93f93819d4",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "site-packages/visions/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "b3959d02bd978937511ec856b644fba71de3a6638aff52aa6606560dbf088adc",
+        "sha256_in_prefix": "b3959d02bd978937511ec856b644fba71de3a6638aff52aa6606560dbf088adc",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "site-packages/visions/types/ip_address.py",
+        "path_type": "hardlink",
+        "sha256": "05fa6dc6ca4a4622b606b8cf7c98e75ac2f45a746d013b4f55c413a2b92c7574",
+        "sha256_in_prefix": "05fa6dc6ca4a4622b606b8cf7c98e75ac2f45a746d013b4f55c413a2b92c7574",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "site-packages/visions/types/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "8ee651e7b29a34f14cde246796940273d5afa655e8e8941be0e3fc06f3d09f0d",
+        "sha256_in_prefix": "8ee651e7b29a34f14cde246796940273d5afa655e8e8941be0e3fc06f3d09f0d",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/visions/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "7eeffba4f8f17a2e31f35b7bbc6a232a99d65575f9e875c677bf12d35d43df26",
+        "sha256_in_prefix": "7eeffba4f8f17a2e31f35b7bbc6a232a99d65575f9e875c677bf12d35d43df26",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "site-packages/visions/types/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "700650cbccd7bafd26a9b9d44a51aeab1354b2e31fc7658be6b1df4b9708cd6e",
+        "sha256_in_prefix": "700650cbccd7bafd26a9b9d44a51aeab1354b2e31fc7658be6b1df4b9708cd6e",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/visions/types/path.py",
+        "path_type": "hardlink",
+        "sha256": "7b5f4bf5d5fe0f1d18400ed90d2ab2db90a7c1c394e1a51c531e2173b22c899c",
+        "sha256_in_prefix": "7b5f4bf5d5fe0f1d18400ed90d2ab2db90a7c1c394e1a51c531e2173b22c899c",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "site-packages/visions/types/sparse.py",
+        "path_type": "hardlink",
+        "sha256": "d0c0fc4051680dea2243dfcb1f84210e4abf5c00334ec05d9f6f062423699a8c",
+        "sha256_in_prefix": "d0c0fc4051680dea2243dfcb1f84210e4abf5c00334ec05d9f6f062423699a8c",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "site-packages/visions/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "123f4d4b67a54b88dea9c2d820822f33ef2eafc6961e56361a200155c4219f1d",
+        "sha256_in_prefix": "123f4d4b67a54b88dea9c2d820822f33ef2eafc6961e56361a200155c4219f1d",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "site-packages/visions/types/time.py",
+        "path_type": "hardlink",
+        "sha256": "7baad06fd04519340b73a6fec90e45be88b9d95e623a420db0ef29d35fe66888",
+        "sha256_in_prefix": "7baad06fd04519340b73a6fec90e45be88b9d95e623a420db0ef29d35fe66888",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/visions/types/time_delta.py",
+        "path_type": "hardlink",
+        "sha256": "aedf103e41277b2f6d98d8c970ca890c061e343a6bb4117e04816264fa4127af",
+        "sha256_in_prefix": "aedf103e41277b2f6d98d8c970ca890c061e343a6bb4117e04816264fa4127af",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "site-packages/visions/types/type.py",
+        "path_type": "hardlink",
+        "sha256": "c165b2a18c377afee630c574e67461c18c437cbb2276da94d8c5551eb9c72eb3",
+        "sha256_in_prefix": "c165b2a18c377afee630c574e67461c18c437cbb2276da94d8c5551eb9c72eb3",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "site-packages/visions/types/url.py",
+        "path_type": "hardlink",
+        "sha256": "e392b948741c82217080841c804189f618e9995c31eac2dfdfe0c812132eac0f",
+        "sha256_in_prefix": "e392b948741c82217080841c804189f618e9995c31eac2dfdfe0c812132eac0f",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "site-packages/visions/types/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "d0a28423a475d8ba22abe6ba654fa98b2e7251d5dac052f78a164b1fff908ff1",
+        "sha256_in_prefix": "d0a28423a475d8ba22abe6ba654fa98b2e7251d5dac052f78a164b1fff908ff1",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "site-packages/visions/typesets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5e49ce69fcc91054803ea24c638684948066fe48c886ae8a611e1554a64f1a93",
+        "sha256_in_prefix": "5e49ce69fcc91054803ea24c638684948066fe48c886ae8a611e1554a64f1a93",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/visions/typesets/complete_set.py",
+        "path_type": "hardlink",
+        "sha256": "bbf839d883a6119f6be2a5f1b979dbdd7410f1c451db4e2bdc36a7c9df7e1264",
+        "sha256_in_prefix": "bbf839d883a6119f6be2a5f1b979dbdd7410f1c451db4e2bdc36a7c9df7e1264",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "site-packages/visions/typesets/geometry_set.py",
+        "path_type": "hardlink",
+        "sha256": "459d00bf2f532115fae24a3251772a9cb0f1d1b784bbaab8818f48b37853ae26",
+        "sha256_in_prefix": "459d00bf2f532115fae24a3251772a9cb0f1d1b784bbaab8818f48b37853ae26",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "site-packages/visions/typesets/standard_set.py",
+        "path_type": "hardlink",
+        "sha256": "b07f39723e483a78432c90ba612374f31859f2f099cbdc161b8651b095e2bc00",
+        "sha256_in_prefix": "b07f39723e483a78432c90ba612374f31859f2f099cbdc161b8651b095e2bc00",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "site-packages/visions/typesets/typeset.py",
+        "path_type": "hardlink",
+        "sha256": "a01ac17ed6136bac7b7175f6bc77468f82bc478a1306d5c89795bbf9427f9120",
+        "sha256_in_prefix": "a01ac17ed6136bac7b7175f6bc77468f82bc478a1306d5c89795bbf9427f9120",
+        "size_in_bytes": 15020
+      },
+      {
+        "_path": "site-packages/visions/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cc61ffd7debf2bea937c05b8c4b09b8c197582221e08ae55453f1c26c66d2274",
+        "sha256_in_prefix": "cc61ffd7debf2bea937c05b8c4b09b8c197582221e08ae55453f1c26c66d2274",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/visions/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "0c2e0f3b564c55071db4e24faedbec2993ae0e0819e5ef4bed3837093bd00a7f",
+        "sha256_in_prefix": "0c2e0f3b564c55071db4e24faedbec2993ae0e0819e5ef4bed3837093bd00a7f",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "site-packages/visions/utils/graph.py",
+        "path_type": "hardlink",
+        "sha256": "33a08d2f95a301f681018f80dd5f804d06c9f798e2d5e1641c4c0c9f0b5a78c3",
+        "sha256_in_prefix": "33a08d2f95a301f681018f80dd5f804d06c9f798e2d5e1641c4c0c9f0b5a78c3",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "site-packages/visions/utils/images/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d417882e6c29cccaeda39ba9b58a712c3e87f3abd1e17454078cba9e8ea6b29d",
+        "sha256_in_prefix": "d417882e6c29cccaeda39ba9b58a712c3e87f3abd1e17454078cba9e8ea6b29d",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/visions/utils/images/image_utils.py",
+        "path_type": "hardlink",
+        "sha256": "c2e682173c35442919c9fcfb0caed2700cee5c2bfc09f0f64305d531f6bf12c7",
+        "sha256_in_prefix": "c2e682173c35442919c9fcfb0caed2700cee5c2bfc09f0f64305d531f6bf12c7",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "18794b2b7771705cb55f28ce91357c124e48d4e227b9b3d3d1fdccd532d3d58f",
+        "sha256_in_prefix": "18794b2b7771705cb55f28ce91357c124e48d4e227b9b3d3d1fdccd532d3d58f",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/imghdr_patch.py",
+        "path_type": "hardlink",
+        "sha256": "034ce64dcdf6f1bc30e6eff8714590f6ccebf1b55ba57c6c3d67d5f4c9f6dd41",
+        "sha256_in_prefix": "034ce64dcdf6f1bc30e6eff8714590f6ccebf1b55ba57c6c3d67d5f4c9f6dd41",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/pathlib_patch.py",
+        "path_type": "hardlink",
+        "sha256": "51acb3eb69e1610b14eb9ff1d1e219307801cda16935f953038fc40a35cd6260",
+        "sha256_in_prefix": "51acb3eb69e1610b14eb9ff1d1e219307801cda16935f953038fc40a35cd6260",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "site-packages/visions/utils/profiling.py",
+        "path_type": "hardlink",
+        "sha256": "5194fbcb41ae00707b9e1c0efb160c14c6e2045867d0531717128ec8c76cdfe9",
+        "sha256_in_prefix": "5194fbcb41ae00707b9e1c0efb160c14c6e2045867d0531717128ec8c76cdfe9",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "site-packages/visions/utils/warning_handling.py",
+        "path_type": "hardlink",
+        "sha256": "be9e56fbf2ca18503934a186ead899bdf69c80e3f13693d26770497e479ad974",
+        "sha256_in_prefix": "be9e56fbf2ca18503934a186ead899bdf69c80e3f13693d26770497e479ad974",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "site-packages/visions/visualisation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/visualisation/circular_packing.html",
+        "path_type": "hardlink",
+        "sha256": "edc602a0ad376a722a864d0ceba5b58ac80dd244bbf09e46b8362f3499f289cb",
+        "sha256_in_prefix": "edc602a0ad376a722a864d0ceba5b58ac80dd244bbf09e46b8362f3499f289cb",
+        "size_in_bytes": 5006
+      },
+      {
+        "_path": "site-packages/visions/visualisation/plot_circular_packing.py",
+        "path_type": "hardlink",
+        "sha256": "fb63a3cfc84e9574993fdd455f3bc4f4e4f90790e49f6fc60e7acff692dacf25",
+        "sha256_in_prefix": "fb63a3cfc84e9574993fdd455f3bc4f4e4f90790e49f6fc60e7acff692dacf25",
+        "size_in_bytes": 1848
+      },
+      {
+        "_path": "site-packages/visions/visualisation/plot_typesets.py",
+        "path_type": "hardlink",
+        "sha256": "d0990036888c5ff4b4b506cc867b7a9717ccc5df83fc3fc77a7b6ee3c51e65f0",
+        "sha256_in_prefix": "d0990036888c5ff4b4b506cc867b7a9717ccc5df83fc3fc77a7b6ee3c51e65f0",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "Lib/site-packages/visions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/__pycache__/array_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/__pycache__/sequences.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/complex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/date_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/float.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/integer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/object.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/string.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/numpy/types/__pycache__/time_delta.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/__pycache__/sequences.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/__pycache__/series_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/__pycache__/traversal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/complex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/date.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/date_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/email_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/file.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/float.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/integer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/ip_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/numeric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/object.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/sparse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/string.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/time_delta.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/pandas/types/__pycache__/uuid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/__pycache__/sequences.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/__pycache__/series_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/complex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/date.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/date_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/email_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/file.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/float.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/integer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/ip_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/numeric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/object.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/string.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/time_delta.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/python/types/__pycache__/uuid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/shared/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/shared/__pycache__/nan_handling.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/shared/__pycache__/parallelization_engines.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/shared/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/__pycache__/traversal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/date.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/datetime.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/float.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/integer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/numeric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/object.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/backends/spark/types/__pycache__/string.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/categorical_to_ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_datetime.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/integer_to_ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/relations_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_datetime.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/relations/__pycache__/string_to_ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/contrib/typesets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/__pycache__/declarative.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/dtypes/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/dtypes/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/__pycache__/functional.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/relations/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/relations/__pycache__/relations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/data/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/__pycache__/series.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/__pycache__/series_geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/__pycache__/series_sparse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/test/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/categorical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/complex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/date.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/date_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/email_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/file.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/float.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/generic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/integer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/ip_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/numeric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/object.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/sparse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/string.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/time_delta.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/type.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/types/__pycache__/uuid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/typesets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/typesets/__pycache__/complete_set.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/typesets/__pycache__/geometry_set.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/typesets/__pycache__/standard_set.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/typesets/__pycache__/typeset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/__pycache__/cache.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/__pycache__/graph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/images/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/images/__pycache__/image_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/monkeypatches/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/monkeypatches/__pycache__/imghdr_patch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/monkeypatches/__pycache__/pathlib_patch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/__pycache__/profiling.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/utils/__pycache__/warning_handling.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/visualisation/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/visualisation/__pycache__/plot_circular_packing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/visions/visualisation/__pycache__/plot_typesets.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "703f51e97105cd3d98e99802da5b87d1846d8c8f1f4a51c735e0320d1e961116",
+  "size": 66554,
+  "subdir": "noarch",
+  "timestamp": 1710950942000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/visions-0.7.6-pyhd8ed1ab_1.conda",
+  "version": "0.7.6"
+}

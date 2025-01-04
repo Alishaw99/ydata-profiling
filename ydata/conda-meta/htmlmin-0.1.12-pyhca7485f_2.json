@@ -1,0 +1,242 @@
+{
+  "build": "pyhca7485f_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\htmlmin-0.1.12-pyhca7485f_2",
+  "files": [
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/INSTALLER",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/LICENSE",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/METADATA",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/RECORD",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/REQUESTED",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/WHEEL",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/direct_url.json",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/entry_points.txt",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/top_level.txt",
+    "Lib/site-packages/htmlmin-0.1.12.dist-info/zip-safe",
+    "Lib/site-packages/htmlmin/__init__.py",
+    "Lib/site-packages/htmlmin/command.py",
+    "Lib/site-packages/htmlmin/decorator.py",
+    "Lib/site-packages/htmlmin/escape.py",
+    "Lib/site-packages/htmlmin/main.py",
+    "Lib/site-packages/htmlmin/middleware.py",
+    "Lib/site-packages/htmlmin/parser.py",
+    "Lib/site-packages/htmlmin/python3html/__init__.py",
+    "Lib/site-packages/htmlmin/python3html/parser.py",
+    "Lib/site-packages/htmlmin/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/command.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/decorator.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/escape.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/main.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/middleware.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/__pycache__/parser.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/python3html/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/htmlmin/python3html/__pycache__/parser.cpython-310.pyc",
+    "Scripts/htmlmin-script.py",
+    "Scripts/htmlmin.exe"
+  ],
+  "fn": "htmlmin-0.1.12-pyhca7485f_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\htmlmin-0.1.12-pyhca7485f_2",
+    "type": 1
+  },
+  "md5": "7a3c8bb644b6e3d7cd0819ead95fa82e",
+  "name": "htmlmin",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\htmlmin-0.1.12-pyhca7485f_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "37294627b3907d0672c24bc5ab90fcdeb9ed039d0114e540ddcabbbfd2b001d9",
+        "sha256_in_prefix": "37294627b3907d0672c24bc5ab90fcdeb9ed039d0114e540ddcabbbfd2b001d9",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f54e011c3c7412a8ec8beaa3d73b16307955b0af1279457ae5540ca254c36de5",
+        "sha256_in_prefix": "f54e011c3c7412a8ec8beaa3d73b16307955b0af1279457ae5540ca254c36de5",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cb65c755234c3ac3b4b9fd8e82d2cedf95ac0be2878eb525a87636006f009790",
+        "sha256_in_prefix": "cb65c755234c3ac3b4b9fd8e82d2cedf95ac0be2878eb525a87636006f009790",
+        "size_in_bytes": 2090
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "77fc3121089c42371823e934a473c9eac77cf475f5ea742a67b2324b710b3322",
+        "sha256_in_prefix": "77fc3121089c42371823e934a473c9eac77cf475f5ea742a67b2324b710b3322",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "fa697f05fa159cdbdd58eb23f4e4251d3b3265447f9240d0686239cb05c7a916",
+        "sha256_in_prefix": "fa697f05fa159cdbdd58eb23f4e4251d3b3265447f9240d0686239cb05c7a916",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ae407717b4b04ebbc7a85641c4e2f969d1ab73994eed9bbdb89c614b073827ed",
+        "sha256_in_prefix": "ae407717b4b04ebbc7a85641c4e2f969d1ab73994eed9bbdb89c614b073827ed",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/htmlmin-0.1.12.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/htmlmin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "739d07c14ada8b7fbfe3cf445e6933bab33e684ae169fddebca54ee532a2ff47",
+        "sha256_in_prefix": "739d07c14ada8b7fbfe3cf445e6933bab33e684ae169fddebca54ee532a2ff47",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "site-packages/htmlmin/command.py",
+        "path_type": "hardlink",
+        "sha256": "a49384b98f522aba7234d5f105de9bc628af4ebb519eac8b84a706d8dfcae18e",
+        "sha256_in_prefix": "a49384b98f522aba7234d5f105de9bc628af4ebb519eac8b84a706d8dfcae18e",
+        "size_in_bytes": 5887
+      },
+      {
+        "_path": "site-packages/htmlmin/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "b185312c6a9f5e5481069a38a81dce5ad6ed0b199875c8450ba4d27290067af1",
+        "sha256_in_prefix": "b185312c6a9f5e5481069a38a81dce5ad6ed0b199875c8450ba4d27290067af1",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "site-packages/htmlmin/escape.py",
+        "path_type": "hardlink",
+        "sha256": "3d9fbd7b96421154199ed1a10a0857afdecae657ada865a9a6d785be94b8fc87",
+        "sha256_in_prefix": "3d9fbd7b96421154199ed1a10a0857afdecae657ada865a9a6d785be94b8fc87",
+        "size_in_bytes": 5844
+      },
+      {
+        "_path": "site-packages/htmlmin/main.py",
+        "path_type": "hardlink",
+        "sha256": "f5b001ce9d74ee5cac1cbf83465949acc9b451a85ca10f19d4b3cdfa0eefab6b",
+        "sha256_in_prefix": "f5b001ce9d74ee5cac1cbf83465949acc9b451a85ca10f19d4b3cdfa0eefab6b",
+        "size_in_bytes": 8273
+      },
+      {
+        "_path": "site-packages/htmlmin/middleware.py",
+        "path_type": "hardlink",
+        "sha256": "c307fef63566d507535209667639c1e73261c0c53be8b374309fc8857d86c221",
+        "sha256_in_prefix": "c307fef63566d507535209667639c1e73261c0c53be8b374309fc8857d86c221",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "site-packages/htmlmin/parser.py",
+        "path_type": "hardlink",
+        "sha256": "1cf8268f0360689a6dd5036df69c8904fb56c74be12c4d4eab882dda84c91f83",
+        "sha256_in_prefix": "1cf8268f0360689a6dd5036df69c8904fb56c74be12c4d4eab882dda84c91f83",
+        "size_in_bytes": 15426
+      },
+      {
+        "_path": "site-packages/htmlmin/python3html/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e5ed6d06c6e37a85fd4bc6c8b5f9222464481e6406c48b54dfee9b5622e88fa",
+        "sha256_in_prefix": "2e5ed6d06c6e37a85fd4bc6c8b5f9222464481e6406c48b54dfee9b5622e88fa",
+        "size_in_bytes": 4954
+      },
+      {
+        "_path": "site-packages/htmlmin/python3html/parser.py",
+        "path_type": "hardlink",
+        "sha256": "1a2ef1e64eb44d7667e7133de0841a3b1656c57fa71ab3d69924b4d4473b7bc8",
+        "sha256_in_prefix": "1a2ef1e64eb44d7667e7133de0841a3b1656c57fa71ab3d69924b4d4473b7bc8",
+        "size_in_bytes": 18039
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/command.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/decorator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/escape.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/middleware.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/__pycache__/parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/python3html/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/htmlmin/python3html/__pycache__/parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/htmlmin-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/htmlmin.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "24a5ca7efee410e287ba9afa59bd3c5f0a89ff2ac4472b49dbdb70bfd40ced48",
+  "size": 25042,
+  "subdir": "noarch",
+  "timestamp": 1710942245000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/htmlmin-0.1.12-pyhca7485f_2.conda",
+  "version": "0.1.12"
+}

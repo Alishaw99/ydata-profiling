@@ -1,0 +1,224 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\dacite-1.8.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/dacite-1.8.1.dist-info/INSTALLER",
+    "Lib/site-packages/dacite-1.8.1.dist-info/LICENSE",
+    "Lib/site-packages/dacite-1.8.1.dist-info/METADATA",
+    "Lib/site-packages/dacite-1.8.1.dist-info/RECORD",
+    "Lib/site-packages/dacite-1.8.1.dist-info/REQUESTED",
+    "Lib/site-packages/dacite-1.8.1.dist-info/WHEEL",
+    "Lib/site-packages/dacite-1.8.1.dist-info/direct_url.json",
+    "Lib/site-packages/dacite-1.8.1.dist-info/top_level.txt",
+    "Lib/site-packages/dacite/__init__.py",
+    "Lib/site-packages/dacite/cache.py",
+    "Lib/site-packages/dacite/config.py",
+    "Lib/site-packages/dacite/core.py",
+    "Lib/site-packages/dacite/data.py",
+    "Lib/site-packages/dacite/dataclasses.py",
+    "Lib/site-packages/dacite/exceptions.py",
+    "Lib/site-packages/dacite/frozen_dict.py",
+    "Lib/site-packages/dacite/py.typed",
+    "Lib/site-packages/dacite/types.py",
+    "Lib/site-packages/dacite/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/cache.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/config.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/core.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/data.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/dataclasses.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/exceptions.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/frozen_dict.cpython-310.pyc",
+    "Lib/site-packages/dacite/__pycache__/types.cpython-310.pyc"
+  ],
+  "fn": "dacite-1.8.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\dacite-1.8.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "bae5bf6a4432c720e3aff6642792d167",
+  "name": "dacite",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\dacite-1.8.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e1741cee11fc82b815210f5368d301c940e7e3def89af718da81550150ba3277",
+        "sha256_in_prefix": "e1741cee11fc82b815210f5368d301c940e7e3def89af718da81550150ba3277",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "410cd882479cf8bd39e4079b48461642e5a9f66bfb3a549805e64067c54c60dc",
+        "sha256_in_prefix": "410cd882479cf8bd39e4079b48461642e5a9f66bfb3a549805e64067c54c60dc",
+        "size_in_bytes": 15820
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6e74ec9bc012b915e80cf9468a95cf64cc5cd18891ec670875db20da5d8b9853",
+        "sha256_in_prefix": "6e74ec9bc012b915e80cf9468a95cf64cc5cd18891ec670875db20da5d8b9853",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "95ca82ff2389c450a22895861ac8684d6f37b41e663920564965ca951dedbfb1",
+        "sha256_in_prefix": "95ca82ff2389c450a22895861ac8684d6f37b41e663920564965ca951dedbfb1",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/dacite-1.8.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "141b626aef657b42cde0a56e444525e1f6892796517bbd30cad5176d8a97f141",
+        "sha256_in_prefix": "141b626aef657b42cde0a56e444525e1f6892796517bbd30cad5176d8a97f141",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/dacite/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "75b8b6bc0586aa8ab8f15f5350747079f33b5fdee07c99944815dd0797df297b",
+        "sha256_in_prefix": "75b8b6bc0586aa8ab8f15f5350747079f33b5fdee07c99944815dd0797df297b",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "site-packages/dacite/cache.py",
+        "path_type": "hardlink",
+        "sha256": "b73e90324ee66641b99b1363761562d39e20791aab2fe156867d0e0cc0880dd1",
+        "sha256_in_prefix": "b73e90324ee66641b99b1363761562d39e20791aab2fe156867d0e0cc0880dd1",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/dacite/config.py",
+        "path_type": "hardlink",
+        "sha256": "fb25c01a567769fcefec1242ff93b7e83f512b67597c0eb79eaa1bc596fc8af5",
+        "sha256_in_prefix": "fb25c01a567769fcefec1242ff93b7e83f512b67597c0eb79eaa1bc596fc8af5",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "site-packages/dacite/core.py",
+        "path_type": "hardlink",
+        "sha256": "1808c98e9df3cd5c31ecfa179ac1ca65415b251848006d9d9cd5825bf036d58c",
+        "sha256_in_prefix": "1808c98e9df3cd5c31ecfa179ac1ca65415b251848006d9d9cd5825bf036d58c",
+        "size_in_bytes": 5924
+      },
+      {
+        "_path": "site-packages/dacite/data.py",
+        "path_type": "hardlink",
+        "sha256": "e3d8f9b496e2f81e4b28e333b78e2d89c4a3c1ba45440a92bdea895e8ffc70ca",
+        "sha256_in_prefix": "e3d8f9b496e2f81e4b28e333b78e2d89c4a3c1ba45440a92bdea895e8ffc70ca",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/dacite/dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "634813559609490b928beeabfb95a2195d96f74d4f6b2879b8084a9a42d41776",
+        "sha256_in_prefix": "634813559609490b928beeabfb95a2195d96f74d4f6b2879b8084a9a42d41776",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "site-packages/dacite/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f48cba632d989229bec29affc853fbbb6109461818325b842a944f0a3b752aa7",
+        "sha256_in_prefix": "f48cba632d989229bec29affc853fbbb6109461818325b842a944f0a3b752aa7",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "site-packages/dacite/frozen_dict.py",
+        "path_type": "hardlink",
+        "sha256": "737c83146d64f95b8fe57b7d9408de7b73ac7b65c9535f5bdd7c64020441fa04",
+        "sha256_in_prefix": "737c83146d64f95b8fe57b7d9408de7b73ac7b65c9535f5bdd7c64020441fa04",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "site-packages/dacite/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dacite/types.py",
+        "path_type": "hardlink",
+        "sha256": "e04353c7f13ee2caaa3497dceab0f3b598bd07e27319610449135ce75c55f7e8",
+        "sha256_in_prefix": "e04353c7f13ee2caaa3497dceab0f3b598bd07e27319610449135ce75c55f7e8",
+        "size_in_bytes": 4942
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/cache.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/dataclasses.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/frozen_dict.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dacite/__pycache__/types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "74e37cceb6c201dd3fb4cd1d8e2901413d0e2e1bb8ec3e2816398ed950e44829",
+  "size": 19269,
+  "subdir": "noarch",
+  "timestamp": 1704800549000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dacite-1.8.1-pyhd8ed1ab_0.conda",
+  "version": "1.8.1"
+}

@@ -1,0 +1,483 @@
+{
+  "build": "py310hcf51aa5_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "joblib >=0.14.1",
+    "matplotlib-base >=2.2.3",
+    "numpy >=1.18.0",
+    "pandas >=0.25.1",
+    "pybind11-abi 4",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "scipy >=1.5.2",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\phik-0.12.3-py310hcf51aa5_1",
+  "files": [
+    "Lib/site-packages/phik-0.12.3.dist-info/INSTALLER",
+    "Lib/site-packages/phik-0.12.3.dist-info/LICENSE",
+    "Lib/site-packages/phik-0.12.3.dist-info/METADATA",
+    "Lib/site-packages/phik-0.12.3.dist-info/NOTICE",
+    "Lib/site-packages/phik-0.12.3.dist-info/RECORD",
+    "Lib/site-packages/phik-0.12.3.dist-info/REQUESTED",
+    "Lib/site-packages/phik-0.12.3.dist-info/WHEEL",
+    "Lib/site-packages/phik-0.12.3.dist-info/direct_url.json",
+    "Lib/site-packages/phik-0.12.3.dist-info/entry_points.txt",
+    "Lib/site-packages/phik-0.12.3.dist-info/top_level.txt",
+    "Lib/site-packages/phik/__init__.py",
+    "Lib/site-packages/phik/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/betainc.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/binning.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/bivariate.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/data_quality.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/definitions.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/entry_points.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/outliers.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/phik.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/report.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/resources.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/significance.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/simulation.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/statistics.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/phik/__pycache__/version.cpython-310.pyc",
+    "Lib/site-packages/phik/betainc.py",
+    "Lib/site-packages/phik/binning.py",
+    "Lib/site-packages/phik/bivariate.py",
+    "Lib/site-packages/phik/data/fake_insurance_data.csv.gz",
+    "Lib/site-packages/phik/data_quality.py",
+    "Lib/site-packages/phik/decorators/__init__.py",
+    "Lib/site-packages/phik/decorators/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/phik/decorators/__pycache__/pandas.cpython-310.pyc",
+    "Lib/site-packages/phik/decorators/pandas.py",
+    "Lib/site-packages/phik/definitions.py",
+    "Lib/site-packages/phik/entry_points.py",
+    "Lib/site-packages/phik/lib/phik_simulation_core.cp310-win_amd64.pyd",
+    "Lib/site-packages/phik/notebooks/phik_tutorial_advanced.ipynb",
+    "Lib/site-packages/phik/notebooks/phik_tutorial_basic.ipynb",
+    "Lib/site-packages/phik/notebooks/phik_tutorial_spark.ipynb",
+    "Lib/site-packages/phik/outliers.py",
+    "Lib/site-packages/phik/phik.py",
+    "Lib/site-packages/phik/report.py",
+    "Lib/site-packages/phik/resources.py",
+    "Lib/site-packages/phik/significance.py",
+    "Lib/site-packages/phik/simcore/__init__.py",
+    "Lib/site-packages/phik/simcore/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/phik/simulation.py",
+    "Lib/site-packages/phik/statistics.py",
+    "Lib/site-packages/phik/utils.py",
+    "Lib/site-packages/phik/version.py",
+    "Scripts/phik_trial-script.py",
+    "Scripts/phik_trial.exe"
+  ],
+  "fn": "phik-0.12.3-py310hcf51aa5_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\phik-0.12.3-py310hcf51aa5_1",
+    "type": 1
+  },
+  "md5": "21ca807fc8f897723d881a6b5f794423",
+  "name": "phik",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\phik-0.12.3-py310hcf51aa5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "62b8d5ae3aecf696276dda37cd6e78aa630fd06a6b941dc12808c586e8d9d193",
+        "sha256_in_prefix": "62b8d5ae3aecf696276dda37cd6e78aa630fd06a6b941dc12808c586e8d9d193",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c588d437d0e7bfed8826281e5836ef6d50d24060e79299387705798e2d6dc6e1",
+        "sha256_in_prefix": "c588d437d0e7bfed8826281e5836ef6d50d24060e79299387705798e2d6dc6e1",
+        "size_in_bytes": 5743
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "73f266b1e4ad777270ab73464e8cff10723061f466c0e9ba7d019f634e44d4a0",
+        "sha256_in_prefix": "73f266b1e4ad777270ab73464e8cff10723061f466c0e9ba7d019f634e44d4a0",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8694a10c8675c8d3ddd01b877ec67f1b3f2d9bd16b20695cc83116c74aeff107",
+        "sha256_in_prefix": "8694a10c8675c8d3ddd01b877ec67f1b3f2d9bd16b20695cc83116c74aeff107",
+        "size_in_bytes": 3748
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c14228bae20716a45c9062ac824db633a5cd487f2c556287d7a657d3adfaf038",
+        "sha256_in_prefix": "c14228bae20716a45c9062ac824db633a5cd487f2c556287d7a657d3adfaf038",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "82e49f1e7ac84e9fb44f18cd962048b106d9e7884c547ef0d5ad49b1ce3417c8",
+        "sha256_in_prefix": "82e49f1e7ac84e9fb44f18cd962048b106d9e7884c547ef0d5ad49b1ce3417c8",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a327b24f682d931c13a2298fec07ae007985246dc225aaaf1319acaac0b4cd0c",
+        "sha256_in_prefix": "a327b24f682d931c13a2298fec07ae007985246dc225aaaf1319acaac0b4cd0c",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "Lib/site-packages/phik-0.12.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "34fc2f1cf204473b9b5999acd5e2e8e70e675cbcb28f772f970533fb4c123b28",
+        "sha256_in_prefix": "34fc2f1cf204473b9b5999acd5e2e8e70e675cbcb28f772f970533fb4c123b28",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/phik/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f08a7c6906913449a5c62d7506ebcf9662ea6f5e0563ed8f78bf786061477385",
+        "sha256_in_prefix": "f08a7c6906913449a5c62d7506ebcf9662ea6f5e0563ed8f78bf786061477385",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b565491963bda9896cd4053111afe68ccb429a4e5fd6ca56e7a04ad86b319b2",
+        "sha256_in_prefix": "1b565491963bda9896cd4053111afe68ccb429a4e5fd6ca56e7a04ad86b319b2",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/betainc.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5518e212236471a8d65b8e3b2c8f7db25b19bbe102fe84572061fe572df1d7d8",
+        "sha256_in_prefix": "5518e212236471a8d65b8e3b2c8f7db25b19bbe102fe84572061fe572df1d7d8",
+        "size_in_bytes": 3861
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/binning.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f6e27567b7d6d8a0ede3182a9b8313d00bd4ab0e82cf65774100c23a8c58cfc",
+        "sha256_in_prefix": "4f6e27567b7d6d8a0ede3182a9b8313d00bd4ab0e82cf65774100c23a8c58cfc",
+        "size_in_bytes": 9588
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/bivariate.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1875f49094d6974facfbe9ea8b7c0c59437a919f446fa9bc5d3ba00f3942ec51",
+        "sha256_in_prefix": "1875f49094d6974facfbe9ea8b7c0c59437a919f446fa9bc5d3ba00f3942ec51",
+        "size_in_bytes": 7774
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/data_quality.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d9762d239305bf0f816197e571d65058c467a811020356f7c521ed9a4345a33",
+        "sha256_in_prefix": "0d9762d239305bf0f816197e571d65058c467a811020356f7c521ed9a4345a33",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/definitions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "86aeef0de7f2919033826c852e8512bc91cc07f5ebc127b7ac8c1530b0889765",
+        "sha256_in_prefix": "86aeef0de7f2919033826c852e8512bc91cc07f5ebc127b7ac8c1530b0889765",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/entry_points.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a9f2533078986ce26cf8c67c5aa75ef322eb10aa29335834084c221a9e2b4df",
+        "sha256_in_prefix": "9a9f2533078986ce26cf8c67c5aa75ef322eb10aa29335834084c221a9e2b4df",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/outliers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed0d19d9c90e61051988f88febcdece13ef3b09491709f5d4de9cda2e92f0ade",
+        "sha256_in_prefix": "ed0d19d9c90e61051988f88febcdece13ef3b09491709f5d4de9cda2e92f0ade",
+        "size_in_bytes": 25244
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/phik.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9124fb4bd08f5f6e5aebb5b61bb52dcacdce95377da911e2b5b56988ba433b1d",
+        "sha256_in_prefix": "9124fb4bd08f5f6e5aebb5b61bb52dcacdce95377da911e2b5b56988ba433b1d",
+        "size_in_bytes": 20846
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/report.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6226c81b649e6dcf06b94cde8d2f7ecaff31b45aee2954ff7c117f05df1212f",
+        "sha256_in_prefix": "c6226c81b649e6dcf06b94cde8d2f7ecaff31b45aee2954ff7c117f05df1212f",
+        "size_in_bytes": 12509
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/resources.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b102677ed62c4f164d800d2ed81616f9f0958d0dd40608182d4106ccca2d61f1",
+        "sha256_in_prefix": "b102677ed62c4f164d800d2ed81616f9f0958d0dd40608182d4106ccca2d61f1",
+        "size_in_bytes": 2466
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/significance.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "52378947015114162cfd9bc5881cf4431001e17c142ffbe4857602fae5ed11e4",
+        "sha256_in_prefix": "52378947015114162cfd9bc5881cf4431001e17c142ffbe4857602fae5ed11e4",
+        "size_in_bytes": 17303
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/simulation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "41f32e4bac4b8d2aba8381f172a30173f303fae0723308d8b942a21dd643c283",
+        "sha256_in_prefix": "41f32e4bac4b8d2aba8381f172a30173f303fae0723308d8b942a21dd643c283",
+        "size_in_bytes": 6693
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/statistics.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4dc44b96537d7dffbf38a52cbeee649514e1a07ab2aea8c623f08178e18fa7a",
+        "sha256_in_prefix": "c4dc44b96537d7dffbf38a52cbeee649514e1a07ab2aea8c623f08178e18fa7a",
+        "size_in_bytes": 5155
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a545aebbf899b6de4e8f731ceac0081fcceddfbb575acf99671585d404272ced",
+        "sha256_in_prefix": "a545aebbf899b6de4e8f731ceac0081fcceddfbb575acf99671585d404272ced",
+        "size_in_bytes": 2625
+      },
+      {
+        "_path": "Lib/site-packages/phik/__pycache__/version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5550d1f1a92cca3312a2c231aae2b7aed9c8fb510213dc0d018abf4abcb6cd49",
+        "sha256_in_prefix": "5550d1f1a92cca3312a2c231aae2b7aed9c8fb510213dc0d018abf4abcb6cd49",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "Lib/site-packages/phik/betainc.py",
+        "path_type": "hardlink",
+        "sha256": "7ce3b0fc98b572f80d40b2f1372df26363d8ed8c9faf3ebc274e9d4452f4972a",
+        "sha256_in_prefix": "7ce3b0fc98b572f80d40b2f1372df26363d8ed8c9faf3ebc274e9d4452f4972a",
+        "size_in_bytes": 3969
+      },
+      {
+        "_path": "Lib/site-packages/phik/binning.py",
+        "path_type": "hardlink",
+        "sha256": "ef9816519f02e6af92ea7b1c454238989a8370eb52c4b8bab4900f3ec975ff1b",
+        "sha256_in_prefix": "ef9816519f02e6af92ea7b1c454238989a8370eb52c4b8bab4900f3ec975ff1b",
+        "size_in_bytes": 11090
+      },
+      {
+        "_path": "Lib/site-packages/phik/bivariate.py",
+        "path_type": "hardlink",
+        "sha256": "568f338ba0a6ba23812040435c7fd163d3415a34036b9070594413004bfaa3de",
+        "sha256_in_prefix": "568f338ba0a6ba23812040435c7fd163d3415a34036b9070594413004bfaa3de",
+        "size_in_bytes": 9047
+      },
+      {
+        "_path": "Lib/site-packages/phik/data/fake_insurance_data.csv.gz",
+        "path_type": "hardlink",
+        "sha256": "9455a5b1efe91f39e3da3a3a640fabfd7bf6e69c29c8f868c2429108fbbeafdc",
+        "sha256_in_prefix": "9455a5b1efe91f39e3da3a3a640fabfd7bf6e69c29c8f868c2429108fbbeafdc",
+        "size_in_bytes": 44032
+      },
+      {
+        "_path": "Lib/site-packages/phik/data_quality.py",
+        "path_type": "hardlink",
+        "sha256": "2e8f34060bcc0a9752c0903b22cdbfdeaf5534e6e8861a518f25571cfaeed875",
+        "sha256_in_prefix": "2e8f34060bcc0a9752c0903b22cdbfdeaf5534e6e8861a518f25571cfaeed875",
+        "size_in_bytes": 5148
+      },
+      {
+        "_path": "Lib/site-packages/phik/decorators/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "49ec55769084dd8d7937b1fce1d90398d0aeb8ded61d3d3a03b4b1c16ad8eed9",
+        "sha256_in_prefix": "49ec55769084dd8d7937b1fce1d90398d0aeb8ded61d3d3a03b4b1c16ad8eed9",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "Lib/site-packages/phik/decorators/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "487cbe3a7c6c46e8c62f0be6f61ce91ac206c81ee29127d310374c0b51f28714",
+        "sha256_in_prefix": "487cbe3a7c6c46e8c62f0be6f61ce91ac206c81ee29127d310374c0b51f28714",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "Lib/site-packages/phik/decorators/__pycache__/pandas.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ead08642bebce9f455ef500b84ba55d65791b9d10046721f2ec69ebd75d3923",
+        "sha256_in_prefix": "7ead08642bebce9f455ef500b84ba55d65791b9d10046721f2ec69ebd75d3923",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "Lib/site-packages/phik/decorators/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "96fb9e8f126ada882c372f16133af09ed825d919b98b70e90ee39361cfde2d6b",
+        "sha256_in_prefix": "96fb9e8f126ada882c372f16133af09ed825d919b98b70e90ee39361cfde2d6b",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "Lib/site-packages/phik/definitions.py",
+        "path_type": "hardlink",
+        "sha256": "0301f94a1d81c50b6014ea7364c9f07bdea66ee050c2f12228a818574216663b",
+        "sha256_in_prefix": "0301f94a1d81c50b6014ea7364c9f07bdea66ee050c2f12228a818574216663b",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "Lib/site-packages/phik/entry_points.py",
+        "path_type": "hardlink",
+        "sha256": "79ade93893447e66c266662a157a44abde2315a4fbc923e89c3b4410bb681795",
+        "sha256_in_prefix": "79ade93893447e66c266662a157a44abde2315a4fbc923e89c3b4410bb681795",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "Lib/site-packages/phik/lib/phik_simulation_core.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "67d5a38161076ccd6eb04765920874b7360a2b21213019c7b082c1c0916d5570",
+        "sha256_in_prefix": "67d5a38161076ccd6eb04765920874b7360a2b21213019c7b082c1c0916d5570",
+        "size_in_bytes": 117760
+      },
+      {
+        "_path": "Lib/site-packages/phik/notebooks/phik_tutorial_advanced.ipynb",
+        "path_type": "hardlink",
+        "sha256": "dcbc9d84935c666fc7b9967c4aaaae0d07b2ce8bcef68a48efca09f48149e2c9",
+        "sha256_in_prefix": "dcbc9d84935c666fc7b9967c4aaaae0d07b2ce8bcef68a48efca09f48149e2c9",
+        "size_in_bytes": 70595
+      },
+      {
+        "_path": "Lib/site-packages/phik/notebooks/phik_tutorial_basic.ipynb",
+        "path_type": "hardlink",
+        "sha256": "de10adbed2fc5c2a7f6e8e58f187899bd84c5f587e18e7ca436475b756627585",
+        "sha256_in_prefix": "de10adbed2fc5c2a7f6e8e58f187899bd84c5f587e18e7ca436475b756627585",
+        "size_in_bytes": 728762
+      },
+      {
+        "_path": "Lib/site-packages/phik/notebooks/phik_tutorial_spark.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7f81be8720d2e9823743118c4b38677846e5b2ab03d061b157cef2ffd66d86bf",
+        "sha256_in_prefix": "7f81be8720d2e9823743118c4b38677846e5b2ab03d061b157cef2ffd66d86bf",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "Lib/site-packages/phik/outliers.py",
+        "path_type": "hardlink",
+        "sha256": "ccf20e88cd67c455957b442119d4751720fd8dec18cf6d5454d618cb87f428ae",
+        "sha256_in_prefix": "ccf20e88cd67c455957b442119d4751720fd8dec18cf6d5454d618cb87f428ae",
+        "size_in_bytes": 29263
+      },
+      {
+        "_path": "Lib/site-packages/phik/phik.py",
+        "path_type": "hardlink",
+        "sha256": "ccb8e614bac6a461c626c69474db750748273328539cd4a1c894fd3946c0e5a4",
+        "sha256_in_prefix": "ccb8e614bac6a461c626c69474db750748273328539cd4a1c894fd3946c0e5a4",
+        "size_in_bytes": 24959
+      },
+      {
+        "_path": "Lib/site-packages/phik/report.py",
+        "path_type": "hardlink",
+        "sha256": "b10806afc651fff59c4b103afbe87a1636e069a7a09fd5a14cf11a74cd7e6866",
+        "sha256_in_prefix": "b10806afc651fff59c4b103afbe87a1636e069a7a09fd5a14cf11a74cd7e6866",
+        "size_in_bytes": 17076
+      },
+      {
+        "_path": "Lib/site-packages/phik/resources.py",
+        "path_type": "hardlink",
+        "sha256": "9e310b92da383e1b5d2fa27ec8b78a6fbbe2ccbbe9d1ec6e7ee2222253fc396b",
+        "sha256_in_prefix": "9e310b92da383e1b5d2fa27ec8b78a6fbbe2ccbbe9d1ec6e7ee2222253fc396b",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "Lib/site-packages/phik/significance.py",
+        "path_type": "hardlink",
+        "sha256": "c4f1ecc6bed6c33bfbadb97551d6cb9dbb3874ccba0551ce3f9dcee0e684abc6",
+        "sha256_in_prefix": "c4f1ecc6bed6c33bfbadb97551d6cb9dbb3874ccba0551ce3f9dcee0e684abc6",
+        "size_in_bytes": 21114
+      },
+      {
+        "_path": "Lib/site-packages/phik/simcore/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a094ef05101757e6bad29305d663fd6ee069582f1d31c56fc92f91bd2d6552c8",
+        "sha256_in_prefix": "a094ef05101757e6bad29305d663fd6ee069582f1d31c56fc92f91bd2d6552c8",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "Lib/site-packages/phik/simcore/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a6bd4c7e96f4062a975a1aa4e32217c8c556b2b73a4f642731f4a940526f815",
+        "sha256_in_prefix": "5a6bd4c7e96f4062a975a1aa4e32217c8c556b2b73a4f642731f4a940526f815",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "Lib/site-packages/phik/simulation.py",
+        "path_type": "hardlink",
+        "sha256": "3bdcf066cac653aed9f1ce64d7154428d93e07179e54ec0240e4ce085a01b6bc",
+        "sha256_in_prefix": "3bdcf066cac653aed9f1ce64d7154428d93e07179e54ec0240e4ce085a01b6bc",
+        "size_in_bytes": 6575
+      },
+      {
+        "_path": "Lib/site-packages/phik/statistics.py",
+        "path_type": "hardlink",
+        "sha256": "79a166eaf7aee7eb5fd610adeb2302330482ed22ce1a5add94bdbfdb40422502",
+        "sha256_in_prefix": "79a166eaf7aee7eb5fd610adeb2302330482ed22ce1a5add94bdbfdb40422502",
+        "size_in_bytes": 5524
+      },
+      {
+        "_path": "Lib/site-packages/phik/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5beeb1e5d8a1224a145e12e0bc2d823dd100476c04d76a79ab49012dda4cffa7",
+        "sha256_in_prefix": "5beeb1e5d8a1224a145e12e0bc2d823dd100476c04d76a79ab49012dda4cffa7",
+        "size_in_bytes": 2928
+      },
+      {
+        "_path": "Lib/site-packages/phik/version.py",
+        "path_type": "hardlink",
+        "sha256": "48373100d281ef4901f76ca8e23391a8860bf41ea9fee9d7786fc1092e267ade",
+        "sha256_in_prefix": "48373100d281ef4901f76ca8e23391a8860bf41ea9fee9d7786fc1092e267ade",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "Scripts/phik_trial-script.py",
+        "path_type": "hardlink",
+        "sha256": "392b0e79832dd58b8f9d2346dc8bf432a5392e51805465e7db6cb6480f1677f9",
+        "sha256_in_prefix": "392b0e79832dd58b8f9d2346dc8bf432a5392e51805465e7db6cb6480f1677f9",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "Scripts/phik_trial.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "74678bd24e9ce84af5d08e8842f9d24d1933b0f3602d85b93155c116a48c3a77",
+  "size": 649011,
+  "subdir": "win-64",
+  "timestamp": 1697266903000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/phik-0.12.3-py310hcf51aa5_1.conda",
+  "version": "0.12.3"
+}

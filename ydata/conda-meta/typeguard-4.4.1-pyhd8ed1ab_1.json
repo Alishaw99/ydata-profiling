@@ -1,0 +1,289 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "pytest >=7"
+  ],
+  "depends": [
+    "importlib-metadata >=3.6",
+    "python >=3.9",
+    "typing-extensions >=4.10.0",
+    "typing_extensions >=4.10.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\tariq\\miniconda3\\pkgs\\typeguard-4.4.1-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/typeguard-4.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/LICENSE",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/METADATA",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/RECORD",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/WHEEL",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/entry_points.txt",
+    "Lib/site-packages/typeguard-4.4.1.dist-info/top_level.txt",
+    "Lib/site-packages/typeguard/__init__.py",
+    "Lib/site-packages/typeguard/_checkers.py",
+    "Lib/site-packages/typeguard/_config.py",
+    "Lib/site-packages/typeguard/_decorators.py",
+    "Lib/site-packages/typeguard/_exceptions.py",
+    "Lib/site-packages/typeguard/_functions.py",
+    "Lib/site-packages/typeguard/_importhook.py",
+    "Lib/site-packages/typeguard/_memo.py",
+    "Lib/site-packages/typeguard/_pytest_plugin.py",
+    "Lib/site-packages/typeguard/_suppression.py",
+    "Lib/site-packages/typeguard/_transformer.py",
+    "Lib/site-packages/typeguard/_union_transformer.py",
+    "Lib/site-packages/typeguard/_utils.py",
+    "Lib/site-packages/typeguard/py.typed",
+    "Lib/site-packages/typeguard/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_checkers.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_config.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_decorators.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_exceptions.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_functions.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_importhook.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_memo.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_pytest_plugin.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_suppression.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_transformer.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_union_transformer.cpython-310.pyc",
+    "Lib/site-packages/typeguard/__pycache__/_utils.cpython-310.pyc"
+  ],
+  "fn": "typeguard-4.4.1-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\tariq\\miniconda3\\pkgs\\typeguard-4.4.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "2de116bbe966ec72715f2423337438dd",
+  "name": "typeguard",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tariq\\miniconda3\\pkgs\\typeguard-4.4.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6163f7987dfb38d6bc320ce2b70b2f02b862bc41126516d552ef1cd43247e758",
+        "sha256_in_prefix": "6163f7987dfb38d6bc320ce2b70b2f02b862bc41126516d552ef1cd43247e758",
+        "size_in_bytes": 1130
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1ce2388d024c4dd568284e68502e2227e3e39601d1ab2e19c176199273b64b87",
+        "sha256_in_prefix": "1ce2388d024c4dd568284e68502e2227e3e39601d1ab2e19c176199273b64b87",
+        "size_in_bytes": 3700
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8421e5f3ee2e70b220202bcf223279fda75b757004506a526b529fafbed2b0d5",
+        "sha256_in_prefix": "8421e5f3ee2e70b220202bcf223279fda75b757004506a526b529fafbed2b0d5",
+        "size_in_bytes": 2577
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3b23c07f574a0ff6e34193c943e1347964693c9aae674219863308f1e5a3680c",
+        "sha256_in_prefix": "3b23c07f574a0ff6e34193c943e1347964693c9aae674219863308f1e5a3680c",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "aa9ecd43568bb624a0310aa8ea05a57c6a72d08217ce830999e4132e9cea1594",
+        "sha256_in_prefix": "aa9ecd43568bb624a0310aa8ea05a57c6a72d08217ce830999e4132e9cea1594",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "site-packages/typeguard-4.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e33dbc021b83a1dc114bf73527f97c1f9d6de50bb07d3b1eb24633971a7a82bb",
+        "sha256_in_prefix": "e33dbc021b83a1dc114bf73527f97c1f9d6de50bb07d3b1eb24633971a7a82bb",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/typeguard/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a7878c37f1e94f0a3b65714dc963d93787bd0d8ecc5722401f966427f99d056",
+        "sha256_in_prefix": "3a7878c37f1e94f0a3b65714dc963d93787bd0d8ecc5722401f966427f99d056",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "site-packages/typeguard/_checkers.py",
+        "path_type": "hardlink",
+        "sha256": "a405754850386d4fad5962b7ac3b614fe0a979c4e7db9d94e2de2153224c8c52",
+        "sha256_in_prefix": "a405754850386d4fad5962b7ac3b614fe0a979c4e7db9d94e2de2153224c8c52",
+        "size_in_bytes": 34726
+      },
+      {
+        "_path": "site-packages/typeguard/_config.py",
+        "path_type": "hardlink",
+        "sha256": "9c8cfc4300dafa814edcbf4ef3feacaf396677df6949bcb6c0e33859bec5fc1d",
+        "sha256_in_prefix": "9c8cfc4300dafa814edcbf4ef3feacaf396677df6949bcb6c0e33859bec5fc1d",
+        "size_in_bytes": 2846
+      },
+      {
+        "_path": "site-packages/typeguard/_decorators.py",
+        "path_type": "hardlink",
+        "sha256": "26c52fcae94e0fa3815ae8fc8b5cac6b03721a0471433a42d703e7679d5ed729",
+        "sha256_in_prefix": "26c52fcae94e0fa3815ae8fc8b5cac6b03721a0471433a42d703e7679d5ed729",
+        "size_in_bytes": 9069
+      },
+      {
+        "_path": "site-packages/typeguard/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "6483de895f8505de449b0d8469677616f96caf08b8a1cc13d9f54604802d1dc4",
+        "sha256_in_prefix": "6483de895f8505de449b0d8469677616f96caf08b8a1cc13d9f54604802d1dc4",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "site-packages/typeguard/_functions.py",
+        "path_type": "hardlink",
+        "sha256": "821873c50fae30596ba2b7c2ec672e2e9a7168e424d8fdd77d3fed853d68749a",
+        "sha256_in_prefix": "821873c50fae30596ba2b7c2ec672e2e9a7168e424d8fdd77d3fed853d68749a",
+        "size_in_bytes": 10221
+      },
+      {
+        "_path": "site-packages/typeguard/_importhook.py",
+        "path_type": "hardlink",
+        "sha256": "28c0f4e73606fd314fd48899d890cbe0702115083cc8526d29f01cc06f20e8cb",
+        "sha256_in_prefix": "28c0f4e73606fd314fd48899d890cbe0702115083cc8526d29f01cc06f20e8cb",
+        "size_in_bytes": 6389
+      },
+      {
+        "_path": "site-packages/typeguard/_memo.py",
+        "path_type": "hardlink",
+        "sha256": "d63b9057fbf19c3d8960a6d2ade6e242e8f8a0a1f3ea7ebbbfda5803e0822128",
+        "sha256_in_prefix": "d63b9057fbf19c3d8960a6d2ade6e242e8f8a0a1f3ea7ebbbfda5803e0822128",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/typeguard/_pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "f9f712aa4bf9e2b21f205f290dabd8e5840f923e0e5fc18cb7f94bec24120f82",
+        "sha256_in_prefix": "f9f712aa4bf9e2b21f205f290dabd8e5840f923e0e5fc18cb7f94bec24120f82",
+        "size_in_bytes": 4416
+      },
+      {
+        "_path": "site-packages/typeguard/_suppression.py",
+        "path_type": "hardlink",
+        "sha256": "5507f3c5cc086eede27f47fb54190a33b86460e03bb4d170f5aee3301b26320e",
+        "sha256_in_prefix": "5507f3c5cc086eede27f47fb54190a33b86460e03bb4d170f5aee3301b26320e",
+        "size_in_bytes": 2266
+      },
+      {
+        "_path": "site-packages/typeguard/_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "d3584c940d50e67694b031f1cd8de15d84f90ac97a1c3102c13d4030e5b0d023",
+        "sha256_in_prefix": "d3584c940d50e67694b031f1cd8de15d84f90ac97a1c3102c13d4030e5b0d023",
+        "size_in_bytes": 44220
+      },
+      {
+        "_path": "site-packages/typeguard/_union_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "3b05813373724c6352f2041eb82e27fe686069f8da38c7c117d2f7a0dfcfb643",
+        "sha256_in_prefix": "3b05813373724c6352f2041eb82e27fe686069f8da38c7c117d2f7a0dfcfb643",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/typeguard/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5f78dc59e53c0e4d1ddd78a84f4211805a3d0e3156ef256bb78c1c5005ef97b9",
+        "sha256_in_prefix": "5f78dc59e53c0e4d1ddd78a84f4211805a3d0e3156ef256bb78c1c5005ef97b9",
+        "size_in_bytes": 5145
+      },
+      {
+        "_path": "site-packages/typeguard/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_checkers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_decorators.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_functions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_importhook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_memo.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_pytest_plugin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_suppression.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_transformer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_union_transformer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/typeguard/__pycache__/_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "155881d5cdf4e608fa60bbc41442f9872ae4f13089c6d4e6daaab15738f03b35",
+  "size": 34900,
+  "subdir": "noarch",
+  "timestamp": 1733185004000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typeguard-4.4.1-pyhd8ed1ab_1.conda",
+  "version": "4.4.1"
+}
